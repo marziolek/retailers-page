@@ -19,7 +19,8 @@
   */
   var RetailersService = function() {
 
-    var retailersEuropeLocations = require('../../_data/retailers-locations/europe.json');
+    var retailersEuropeLocations = require('../../_data/retailers-locations/locations.json');
+    // var retailersEuropeLocations = require('../../_data/retailers-locations/new.json');
     var mockData = {
       getRetailerLocations: [
         { lat: -25.363, lng: 131.044 },
@@ -49,17 +50,18 @@
 
       setTimeout(function () {
         if (onResponse) {
-          var filteredLocations = filterRetailerLocations(query);
+          var filteredLocations = filterRetailerLocations(query),
+            markup = [''];
+
+          markup = prepareMarkup(filteredLocations);
 
           onResponse({
             locations: filteredLocations,
-            markup: [
-              '<div class="retailers-page__result"><h4 class="header-small l-col-pad"><strong>funenasd</strong></h4><div class="retailers"><div class="retailer l-col-pad text"><strong>Jens Schultz A/S</strong><div class="address"><p>Odensevej 116</p><p>5700</p><p>Denmark</p></div><div class="contact"><p>Phone</p><p>( +45 ) 72 17 01 38</p></div><div class="contact"><p>Fax</p><p>( +45 ) 72 17 01 39</p></div></div><div class="retailer l-col-pad text"><strong>Bygma Odense Vest</strong><div class="address"><p>Rughøjvej 11</p><p>5250 Odensen SV</p><p>Denmark</p></div><div class="contact"><p>Phone</p><p>( +45 ) 72 17 01 38</p></div><a href="mailto:odensenvest@bygma.com" class="email link link--underline">odensenvest@bygma.com</a></div><div class="retailer l-col-pad text"><strong>Jens Schultz A/S</strong><div class="address"><p>Odensevej 116</p><p>5700</p><p>Denmark</p></div><div class="contact"><p>Phone</p><p>( +45 ) 72 17 01 38</p></div><div class="contact"><p>Fax</p><p>( +45 ) 72 17 01 39</p></div></div><div class="retailer l-col-pad text"><strong>Jens Schultz A/S</strong><div class="address"><p>Odensevej 116</p><p>5700</p><p>Denmark</p></div><div class="contact"><p>Phone</p><p>( +45 ) 72 17 01 38</p></div><div class="contact"><p>Fax</p><p>( +45 ) 72 17 01 39</p></div></div><div class="retailer l-col-pad text"><strong>Jens Schultz A/S</strong><div class="address"><p>Odensevej 116</p><p>5700</p><p>Denmark</p></div><div class="contact"><p>Phone</p><p>( +45 ) 72 17 01 38</p></div><div class="contact"><p>Fax</p><p>( +45 ) 72 17 01 39</p></div></div></div></div>'
-            ]
+            markup: markup
           });
           // onResponse(mockData.search);
         }
-      }, 400);
+      });
     };
 
     this.getRetailerLocations = function(onResponse) {
@@ -68,50 +70,91 @@
           // onResponse(mockData.getRetailerLocations);
           onResponse(retailersEuropeLocations);
         }
-      }, 3000);
+      });
     }
 
+    var filteredRegions = [],
+      filteredCountries = [],
+      filteredSpecific = [];
     var filterRetailerLocations = function(region) {
-      var regions = [],
-        countries = [],
-        specific = [];
+      filteredRegions = [];
+      filteredCountries = [];
+      filteredSpecific = [];
       for (var i in region) {
         if (!$.isEmptyObject(region[i])) {
           for (var j in region[i]) {
             if (!$.isEmptyObject(region[i][j])) {
-              specific.push(region[i][j])
+              filteredSpecific.push(region[i][j])
             } else {
-              countries.push(j)
+              filteredCountries.push(j)
             }
           }
         } else {
-          regions.push(i)
+          filteredRegions.push(i)
         }
       }
-      console.log(regions, countries, specific)
+      console.log(filteredRegions, filteredCountries, filteredSpecific)
       var locations = [];
       retailersEuropeLocations.forEach( function(retailer) {
-        if (specific.length) {
+        if (filteredSpecific.length) {
 
-        } else if (countries.length) {
+        } else if (filteredCountries.length) {
           if (
             retailer
             && retailer.properties
-            && countries.indexOf(retailer.properties.country.replace(/\s+/g, '-').toLowerCase()) > -1
+            && filteredCountries.indexOf(retailer.properties.country.replace(/\s+/g, '-').toLowerCase()) > -1
           ) {
             locations.push(retailer)
           }
-        } else if (regions.length) {
+        } else if (filteredRegions.length) {
           if (
             retailer
             && retailer.properties
-            && retailer.properties.region === regions[0]
+            && retailer.properties.region === filteredRegions[0]
           ) {
             locations.push(retailer)
           }
         }
       });
       return locations;
+    }
+
+    var prepareMarkup = function(locations) {
+      var title = ''
+      if (filteredSpecific.length) {
+        title = filteredSpecific.join(', ').replace('-', ' ')
+      } else if (filteredCountries.length) {
+        title = filteredCountries.join(', ').replace('-', ' ')
+      } else if (filteredRegions.length) {
+        title = filteredRegions[0];
+        if (title === 'nordic-east-eu') {
+          title = 'nordic &amp; east europe'
+        } else if (title === 'asia-pacific') {
+          title = 'asia &amp; pacific'
+        }
+      }
+      var markup = '<div class="retailers-page__result"><h4 class="header-small l-col-pad"><strong>' + title + '</strong></h4><div class="retailers">';
+      locations.forEach( function(location) {
+        markup += '<div class="retailer l-col-pad text"><strong>' + location.properties.name + '</strong>';
+        markup += '<div class="address"><p>' + location.properties.address + '</p>';
+        if (location.properties.address2) {
+          markup += '<p>' + location.properties.address2 + '</p>'
+        }
+        markup += '<p>' + location.properties.postal + ' ' + location.properties.city + '</p>';
+        markup += '<p>' + location.properties.country + '</p></div>';
+        if (location.properties.phone) {
+          markup += '<div class="contact"><p>Phone</p><p>' + location.properties.phone + '</p></div>'
+        }
+        if (location.properties.fax) {
+          markup += '<div class="contact"><p>Fax</p><p>' + location.properties.fax + '</p></div>'
+        }
+        if (location.properties.email) {
+          markup += '<a href="mailto:' + location.properties.email + '" class="email link link--underline">' + location.properties.email + '</a>';
+        }
+        markup += '</div>';
+      });
+      markup += '</div></div>';
+      return [markup]
     }
   };
 

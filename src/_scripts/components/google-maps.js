@@ -65,8 +65,8 @@
           }
 
           // if (pos.lat && pos.lng) {
-          //   var latStr = _locations[i].properties.lat.toString().substring(0,8),
-          //     lngStr = _locations[i].properties.lng.toString().substring(0,7);
+          //   var latStr = parseInt(_locations[i].properties.lat).toString().substring(0,8),
+          //     lngStr = parseInt(_locations[i].properties.lng).toString().substring(0,8);
 
           //   var newLat = parseFloat(latStr.substr(0, latStr.length - 6) + '.' + latStr.slice(-6)),
           //     newLng = parseFloat(lngStr.substr(0, lngStr.length - 6) + '.' + lngStr.slice(-6));
@@ -74,18 +74,20 @@
           //   _locations[i].properties.lat = newLat;
           //   _locations[i].properties.lng = newLng;
           // }
-          // console.log(pos, _locations[i].properties.name)
-          goodJson.push(_locations[i])
+          // console.log(newLat, newLng, _locations[i].properties.name)
+          // goodJson.push(_locations[i])
         }
         if (pos.lat && pos.lng && _locations[i].properties) {
           var marker = new google.maps.Marker({
             position: pos,
             map: map,
-            icon: markerImage
+            icon: markerImage,
+            // label: _locations[i].properties.country
           });
           locations.push(marker);
         }
       }
+      // console.log(goodJson)
       fitBounds();
     };
 

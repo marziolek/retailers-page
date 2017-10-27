@@ -1,0 +1,4326 @@
+[
+  {
+    "properties": {
+      "name": "Total Solution GmbH",
+      "address": "Am Wasser 4",
+      "address2": null,
+      "postal": "8430",
+      "city": "Leibnitz",
+      "country": "Austria",
+      "region": "nordic-east-eu",
+      "phone": "+43 345271434",
+      "email": "office@total-solution.at",
+      "website": "http://www.totalsolution.at",
+      "lng": 1.553528,
+      "lat": 46.794161
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15535288,
+        467941617
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Berma Bru nv",
+      "address": "Maurice Herbettelaan 63",
+      "address2": null,
+      "postal": "1070",
+      "city": "Brussel",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)25295050",
+      "email": "info@bermabru.be",
+      "website": "http://www.bermabru.be",
+      "lng": 4.309792,
+      "lat": 50.844699
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        43097922,
+        508446995
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Deceuninck deforce",
+      "address": "Lodewijk de Raetlaan 28",
+      "address2": null,
+      "postal": "8870",
+      "city": "Kachtem",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)51 22 41 11",
+      "email": "info@dcdf.be",
+      "website": "http://www.deceuninck-deforce.be/site/",
+      "lng": 3.206555,
+      "lat": 50.928182
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32065558,
+        509281823
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Desco nv",
+      "address": "Bijkhoevelaan 2-4",
+      "address2": null,
+      "postal": "2110",
+      "city": "Wijnegem",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)33263333",
+      "email": "info@desco.be",
+      "website": "http://www.desco.be",
+      "lng": 4.492043,
+      "lat": 51.235307
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44920432,
+        512353077
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Facq nv",
+      "address": "Leuvensesteenweg 536",
+      "address2": null,
+      "postal": "1930",
+      "city": "Zaventem",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)2 7198611",
+      "email": "info@facq.be",
+      "website": "http://www.facq.be",
+      "lng": 4.490701,
+      "lat": 50.874531
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44907011,
+        508745316
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Het tafeltje rond bvba",
+      "address": "Landwaartslaan 15-17",
+      "address2": null,
+      "postal": "3600",
+      "city": "Genk",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)89352526",
+      "email": "info@hettafeltjerond.be",
+      "website": "http://www.hettafeltjerond.be",
+      "lng": 5.450094,
+      "lat": 50.961517
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        54500942,
+        509615177
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Hobroco nv",
+      "address": "Iepersestraat 93",
+      "address2": null,
+      "postal": "8500",
+      "city": "Kortrijk",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)56370275",
+      "email": "info@hobroco.be",
+      "website": "http://www.pro-at-work.be",
+      "lng": 3.263528,
+      "lat": 50.842765
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32635286,
+        508427658
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Holvoet design bvba",
+      "address": "Oudenaardsesteenweg 269",
+      "address2": null,
+      "postal": "8500",
+      "city": "Kortrijk",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)56 224727",
+      "email": "info@holvoet-design.be",
+      "website": "http://www.holvoet-design.be",
+      "lng": 3.289245,
+      "lat": 50.820866
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32892454,
+        50820866
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Ijzerwaren Vertommen",
+      "address": "Gentsebaan 64",
+      "address2": null,
+      "postal": "9100",
+      "city": "Sint-Niklaas",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "32 3/7762003",
+      "email": "info@vertommen.be",
+      "website": "http://www.vertommen.be",
+      "lng": 4.448427,
+      "lat": 50.473729
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44484278,
+        504737294
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Lambrechts nv",
+      "address": "Taunusweg 8",
+      "address2": null,
+      "postal": "3600",
+      "city": "Genk",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)89620320",
+      "email": "info@lambrechtssan-cv.be",
+      "website": "http://www.lambrechts.eu",
+      "lng": 5.501426,
+      "lat": 50.91575
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        55014267,
+        509157503
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Lecot nv",
+      "address": "Vier Linden 7",
+      "address2": null,
+      "postal": "8501",
+      "city": "Heule",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)56364511",
+      "email": "info@lecot.be",
+      "website": "http://www.lecot.be",
+      "lng": 3.24537,
+      "lat": 50.850173
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32453701,
+        508501731
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Lecot Raedschelders nv",
+      "address": "Renkoven",
+      "address2": null,
+      "postal": "3680",
+      "city": "Maaseik",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)89564972",
+      "email": "maaseik@rlecot.be",
+      "website": "http://www.raedschelders.be",
+      "lng": 5.800085,
+      "lat": 51.100915
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5800085,
+        511009156
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Lecot Antwerpen",
+      "address": "Slachthuislaan 68A",
+      "address2": null,
+      "postal": "2060",
+      "city": "Berchem",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "32  3 3604496",
+      "email": "antwerpen@lecot.be",
+      "website": "http://www.lecot-raedschelders.com",
+      "lng": 5.123219,
+      "lat": 44.32969
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        51232190,
+        4432969
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Lerou IJzerwaren nv",
+      "address": "Monnikenwerve 131",
+      "address2": null,
+      "postal": "8000",
+      "city": "Brugge",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)50317442",
+      "email": "info@lerou.com",
+      "website": "http://www.lerou.com",
+      "lng": 3.203272,
+      "lat": 51.247648
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32032721,
+        512476487
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Modern Comfort Home sa",
+      "address": "Rue de la Station 66",
+      "address2": null,
+      "postal": "1410",
+      "city": "Waterloo",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)23541112",
+      "email": "mch@mch-com.be",
+      "website": "http://www.mch-com.be",
+      "lng": 4.393605,
+      "lat": 50.71736
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        43936056,
+        507173609
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Vancanneyt nv",
+      "address": "Spoelewielenlaan  8",
+      "address2": null,
+      "postal": "8860",
+      "city": "Lendelede",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "32 51 311396",
+      "email": "info@vancanneyt.be",
+      "website": "http://www.proatwork.be",
+      "lng": 3.240214,
+      "lat": 50.8908
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3240214,
+        50890807
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Novia bvba",
+      "address": "Huidevettersstraat 50",
+      "address2": null,
+      "postal": "2000",
+      "city": "Antwerpen",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)3-2314.36",
+      "email": "info@novia.be",
+      "website": "http://www.novia.be",
+      "lng": 4.405098,
+      "lat": 51.216371
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44050981,
+        512163719
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Novia Due bvba",
+      "address": "Chaussee de Waterloosteenweg 809",
+      "address2": null,
+      "postal": "1180",
+      "city": "Brussel",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)23444435",
+      "email": "info@noviadue.com",
+      "website": "http://www.noviadue.com",
+      "lng": 4.355919,
+      "lat": 50.79049
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        43559193,
+        507904904
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "R. Janssen & Zn nv",
+      "address": "Kastelein 73",
+      "address2": null,
+      "postal": "2300",
+      "city": "Turnhout",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)14 416926",
+      "email": "info@janssenr.be",
+      "website": "http://www.janssenr.be",
+      "lng": 4.944526,
+      "lat": 51.340623
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49445265,
+        513406231
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Santens Dhondt nv",
+      "address": "Dirk Martensstraat 18",
+      "address2": null,
+      "postal": "8200",
+      "city": "Brugge, St.-Andries",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "32(0)50727070",
+      "email": "info@santensdhondt.be",
+      "website": "http://www.santensmetaalwaren.be",
+      "lng": 3.204041,
+      "lat": 51.200178
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32040414,
+        512001788
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Santens Metaalwaren nv",
+      "address": "Nijverheidskaai 3",
+      "address2": null,
+      "postal": "9040",
+      "city": "Gent",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 92188616",
+      "email": "info@santens.gent.be",
+      "website": "http://www.santensmetaalwaren.be",
+      "lng": 3.757548,
+      "lat": 51.047584
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        37575487,
+        510475849
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Sax Sanitair",
+      "address": "Autostradeweg 3",
+      "address2": null,
+      "postal": "9090",
+      "city": "Melle",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)9 2524400",
+      "email": "info@sax-sanitair.be",
+      "website": "http://www.sax-sanitair.be",
+      "lng": 3.794829,
+      "lat": 50.991446
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        37948296,
+        50991446
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Schrauwen nv",
+      "address": "Kapelsesteenweg 80",
+      "address2": null,
+      "postal": "2930",
+      "city": "Brasschaat",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)3 645 2479",
+      "email": "brasschaat@schrauwen.be",
+      "website": "http://www.schrauwen.be",
+      "lng": 4.456623,
+      "lat": 51.274982
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44566232,
+        512749827
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Th Meurer A.G.",
+      "address": "Aachenenrstrasse 26",
+      "address2": null,
+      "postal": "4780",
+      "city": "Sant Vith",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)80 280500",
+      "email": "info@meurer.be",
+      "website": "http://www.meurer.be",
+      "lng": 6.136083,
+      "lat": 50.293605
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        61360833,
+        502936057
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Van den Broeck-Prolians nv",
+      "address": "Atealaan 35",
+      "address2": null,
+      "postal": "2270",
+      "city": "Herenthout",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)14259500",
+      "email": "info@vdb-prolians.be",
+      "website": "http://www.vdb-prolians.be",
+      "lng": 4.796015,
+      "lat": 51.158349
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        47960159,
+        511583499
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Van Eijck",
+      "address": "Tiensestraat 15",
+      "address2": null,
+      "postal": "3000",
+      "city": "Leuven",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)16222020",
+      "email": "info@van-eyck.be",
+      "website": "http://www.van-eyck.be",
+      "lng": 4.703551,
+      "lat": 50.87837
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        47035515,
+        508783706
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Van Langendonck bvba",
+      "address": "Grootlosestraat 59",
+      "address2": null,
+      "postal": "3128",
+      "city": "Tremelo",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)16602061",
+      "email": "sales@vanlangendonck.com",
+      "website": "http://www.vanlangendonck.com",
+      "lng": 4.731058,
+      "lat": 51.016198
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4731058,
+        510161982
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Van Marcke nv",
+      "address": "Weggevoerdenlaan 5",
+      "address2": null,
+      "postal": "8500",
+      "city": "Kortrijk",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)56 237511",
+      "email": "info@vanmarcke.be",
+      "website": "http://www.vanmarcke.be",
+      "lng": 3.252991,
+      "lat": 50.819431
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32529914,
+        508194313
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Vanden Bergh sa",
+      "address": "Rue de la posterie 21",
+      "address2": null,
+      "postal": "5030",
+      "city": "Gembloux",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)81615458",
+      "email": "info@vandenbergh.be",
+      "website": "http://www.vandenbergh.be",
+      "lng": 4.705754,
+      "lat": 50.576711
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4705754,
+        50576711
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "VBH Belgium nv",
+      "address": "Koolmijnlaan 99",
+      "address2": null,
+      "postal": "3580",
+      "city": "Beringen",
+      "country": "Belgium",
+      "region": "nordic-east-eu",
+      "phone": "+32 (0)11458350",
+      "email": "info@vbh.be",
+      "website": "http://www.vbh.be",
+      "lng": 5.222869,
+      "lat": 51.0555
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5222869,
+        510555008
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BONO-HS,s.r.o.",
+      "address": "Volynska 446/2",
+      "address2": null,
+      "postal": "386 01",
+      "city": "Strakonice",
+      "country": "Czech Republic",
+      "region": "nordic-east-eu",
+      "phone": "+420 241 723 821 4",
+      "email": null,
+      "website": null,
+      "lng": 13.91176,
+      "lat": 49.252097
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        139117615,
+        492520978
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Vector International spol sro",
+      "address": "Ceskoslovenské armády 702 ",
+      "address2": null,
+      "postal": "25301",
+      "city": "Hostivice u Prahy",
+      "country": "Czech Republic",
+      "region": "nordic-east-eu",
+      "phone": "+420 220180476",
+      "email": null,
+      "website": null,
+      "lng": 14.25039,
+      "lat": 50.082337
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        142503988,
+        500823372
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Geex SAS",
+      "address": "Avenue Louis Blériot 12",
+      "address2": null,
+      "postal": "95740",
+      "city": "Frépillon",
+      "country": "France",
+      "region": "nordic-east-eu",
+      "phone": "+33 (0)1 41832400",
+      "email": "information@euxos.com",
+      "website": "http://www.euxos.com",
+      "lng": 2.452276,
+      "lat": 48.894928
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24522763,
+        488949283
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "EM Design Handel",
+      "address": "SchÃ¶nbergstrasse 24",
+      "address2": null,
+      "postal": "73760",
+      "city": "Ostfildern",
+      "country": "Germany",
+      "region": "nordic-east-eu",
+      "phone": "0711-34218605",
+      "email": "info@emdesignhandel.de",
+      "website": "http://www.emdesignhandel.de",
+      "lng": 9.2277,
+      "lat": 48.72422
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        92277,
+        4872422
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line Italy",
+      "address": "Viale Verdi 55a",
+      "address2": null,
+      "postal": "23807",
+      "city": "Merate",
+      "country": "Italy",
+      "region": "nordic-east-eu",
+      "phone": "+39 392 1316964",
+      "email": "sg@dline.com",
+      "website": "www.dline.com",
+      "lng": 9.41009,
+      "lat": 45.696572
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        941009,
+        45696572
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Comptoir des Fers et Métaux sa",
+      "address": "5a Rue Guillaume J. Kroll",
+      "address2": null,
+      "postal": "1022",
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "region": "nordic-east-eu",
+      "phone": "+352 (0)4995-1",
+      "email": "info@cfm.lu",
+      "website": "http://www.cfm.lu",
+      "lng": 6.112685,
+      "lat": 49.581714
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        61126857,
+        495817146
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Gilbert sàrl",
+      "address": "Z.I. Z.a.r.e. ilon est",
+      "address2": null,
+      "postal": "4385",
+      "city": "Ehlerange",
+      "country": "Luxembourg",
+      "region": "nordic-east-eu",
+      "phone": "+352 (0)401701",
+      "email": "info@gilbert.lu",
+      "website": "http://www.gilbert.lu",
+      "lng": 5.96465,
+      "lat": 49.52313
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        596465,
+        4952313
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Neuberg sa",
+      "address": "Rue Jacques Stas 39",
+      "address2": null,
+      "postal": "2549",
+      "city": "Luxembourg-Gasperich",
+      "country": "Luxembourg",
+      "region": "nordic-east-eu",
+      "phone": "+352 (0)401401",
+      "email": "info@neuberg.lu",
+      "website": "http://www.neuberg.lu",
+      "lng": 6.128582,
+      "lat": 49.592397
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6128582,
+        495923974
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Core",
+      "address": "Upper valley road",
+      "address2": null,
+      "postal": "BKR 9085",
+      "city": "Birkirkara",
+      "country": "Malta",
+      "region": "nordic-east-eu",
+      "phone": "+356 21443449",
+      "email": null,
+      "website": "www.core.com.mt",
+      "lng": 14.4625,
+      "lat": 35.896666
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        144625,
+        358966667
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line NL - Office",
+      "address": "Magazijnweg 12 B",
+      "address2": null,
+      "postal": "2404 CE",
+      "city": "Alphen aan de Rijn",
+      "country": "Netherlands",
+      "region": "nordic-east-eu",
+      "phone": "0343-480033",
+      "email": "jeroen@dlinenederland.nl",
+      "website": "http://www.dlinenederland.nl",
+      "lng": 4.9755775,
+      "lat": 52.3620204
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.9755775,
+        52.3620204
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line NL Showroom",
+      "address": "Pedro de Medinalaan 89-91",
+      "address2": null,
+      "postal": "1086 XP",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "region": "nordic-east-eu",
+      "phone": "0343-480033",
+      "email": "jeroen@dlinenederland.nl",
+      "website": "http://www.dlinenederland.nl",
+      "lng": 4.9755775,
+      "lat": 52.3620204
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.9755775,
+        52.3620204
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "aXim line Miroslaw Laurman",
+      "address": "ul. Miodowa 7",
+      "address2": null,
+      "postal": "72-603",
+      "city": "Swinoujscie",
+      "country": "Poland",
+      "region": "nordic-east-eu",
+      "phone": "+48 601480047",
+      "email": "aximline@vp.pl",
+      "website": null,
+      "lng": 14.30245,
+      "lat": 53.852636
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        14302456,
+        53852636
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Carvalho, Batista & Ca, Sa",
+      "address": "Rua Do Almada 79-89",
+      "address2": "Apartado 4784",
+      "postal": "4013-001",
+      "city": "Porto",
+      "country": "Portugal",
+      "region": "nordic-east-eu",
+      "phone": "+35 1223392120",
+      "email": null,
+      "website": "http://www.carvalhobatista.pt",
+      "lng": -8.6239254,
+      "lat": 41.156689
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -86239254,
+        411566892
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Arcon",
+      "address": "Rosselló, 21",
+      "address2": null,
+      "postal": "8029",
+      "city": "Barcelona",
+      "country": "Spain",
+      "region": "nordic-east-eu",
+      "phone": "+34 936002002",
+      "email": null,
+      "website": "http://www.arcon.es",
+      "lng": 2.14357,
+      "lat": 41.383087
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        21435704,
+        413830874
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Beschläge U.S.W. AG",
+      "address": "Böhnirainstrasse 16",
+      "address2": null,
+      "postal": "8800",
+      "city": "Thalwil",
+      "country": "Switzerland",
+      "region": "nordic-east-eu",
+      "phone": "+41 447229000",
+      "email": "info@usw.ch",
+      "website": "http://www.usw.ch",
+      "lng": 8.560252,
+      "lat": 47.291334
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8560252,
+        47291334
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Expo SA",
+      "address": "20  Nimfeou St",
+      "address2": null,
+      "postal": "11528",
+      "city": "Ilissa",
+      "country": "Greece",
+      "region": "nordic-east-eu",
+      "phone": "+30 2107485560",
+      "email": null,
+      "website": "http://www.expo.gr",
+      "lng": 23.757946,
+      "lat": 37.97766
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        37977667,
+        23757946
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Diseño Iconico Sl",
+      "address": "C/Turo de la penya 42 Avinguda Sant Hilari amb",
+      "address2": null,
+      "postal": "E08440",
+      "city": "Cardedeu",
+      "country": "Spain",
+      "region": "nordic-east-eu",
+      "phone": "0034 972 10 55 35",
+      "email": null,
+      "website": "https://www.iconico.es/",
+      "lng": null,
+      "lat": null
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line UK",
+      "address": "23 Hanover Square",
+      "address2": "Mayfair",
+      "postal": "W1S 1JB",
+      "city": "London",
+      "country": "United Kingdom",
+      "region": "UK & Eire",
+      "phone": "+44 (0)1462 450294",
+      "email": "cea@dline.com",
+      "website": "http://www.dline.co.uk",
+      "lng": 0,
+      "lat": 51.515023
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -0.14359,
+        51515023
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line eisenware",
+      "address": "17 Key Business Park Kingsbury Road",
+      "address2": null,
+      "postal": "B249PT",
+      "city": "Birmingham",
+      "country": "United Kingdom",
+      "region": "UK & Eire",
+      "phone": "+44 (0)121 3734488",
+      "email": "sales@eisenware.com",
+      "website": "http://www.eisenware.com/",
+      "lng": -1.80925,
+      "lat": 52.51735
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -18092502,
+        525173509
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "KCC architectural",
+      "address": "Unit 1 Westgate Business Park",
+      "address2": "Ballymount",
+      "postal": "24.0",
+      "city": "Dublin",
+      "country": "Ireland",
+      "region": "UK & Eire",
+      "phone": "00 353 1 4567421",
+      "email": "sales@kccarchitechural.com",
+      "website": "www.kccarchitectural.com",
+      "lng": -6.356842,
+      "lat": 53.309588
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -6356842,
+        533095889
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "EVVASALTO ACCESS AB",
+      "address": "Elektravägen 22B",
+      "address2": null,
+      "postal": "126 30",
+      "city": "Hägersten",
+      "country": "Sweden",
+      "region": "nordic-east-eu",
+      "phone": "+46 555 982 00",
+      "email": null,
+      "website": null,
+      "lng": 18.013282,
+      "lat": 59.296172
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        180132828,
+        592961724
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Sikkerhet & Design AS",
+      "address": "Sinsenveien 4",
+      "address2": null,
+      "postal": "572.0",
+      "city": "Oslo",
+      "country": "Norway",
+      "region": "nordic-east-eu",
+      "phone": "+47 22040768",
+      "email": "post@sogd.no",
+      "website": null,
+      "lng": 10.779166,
+      "lat": 59.928898
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        107791667,
+        599288985
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": " Vélar & Verkfæri ehf",
+      "address": "Skútuvogur 1 c",
+      "address2": null,
+      "postal": "104.0",
+      "city": "Reykjavik",
+      "country": "Iceland",
+      "region": "nordic-east-eu",
+      "phone": "+354 5508500",
+      "email": null,
+      "website": null,
+      "lng": -21.84606,
+      "lat": 64.139995
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -21846064,
+        641399951
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Járn & Gler ehf",
+      "address": "Skútuvogur 1 H",
+      "address2": null,
+      "postal": "104.0",
+      "city": "Reykjavik",
+      "country": "Iceland",
+      "region": "nordic-east-eu",
+      "phone": "00354 585858900",
+      "email": null,
+      "website": "http://jarngler.is",
+      "lng": -21.84606,
+      "lat": 64.139995
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -21846064,
+        641399951
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Sanistaal A/S",
+      "address": "Inspektørbakken 1",
+      "address2": null,
+      "postal": "3900.0",
+      "city": "Nuuk",
+      "country": "Greenland",
+      "region": "nordic-east-eu",
+      "phone": "+299 326030",
+      "email": "sanistaal@sanistaal.dk",
+      "website": "http://www.sanistaal.dk",
+      "lng": -51.7379878,
+      "lat": 64.180019
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -517379878,
+        641800194
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "AM Security Oy",
+      "address": "Ruissalontie 15",
+      "address2": null,
+      "postal": "20200.0",
+      "city": "Turku",
+      "country": "Finland",
+      "region": "nordic-east-eu",
+      "phone": "+358 248883500",
+      "email": "posti@avaintuote.fi",
+      "website": "http://www.amsecurity.fi",
+      "lng": 22.240667,
+      "lat": 60.449213
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        222406677,
+        604492132
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "TAMSALE OY",
+      "address": "Papinkatu 21",
+      "address2": null,
+      "postal": "33200.0",
+      "city": "Tampere",
+      "country": "Finland",
+      "region": "nordic-east-eu",
+      "phone": "+358 331244200",
+      "email": "tampere@tamsale.fi",
+      "website": "http://www.tamsale.fi",
+      "lng": 23.75043,
+      "lat": 61.493904
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        237504307,
+        614939045
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Hokola Oy",
+      "address": "Hämeentie 20 ",
+      "address2": null,
+      "postal": "530.0",
+      "city": "Helsinki",
+      "country": "Finland",
+      "region": "nordic-east-eu",
+      "phone": "+358 9717172",
+      "email": "info@hokola.fi",
+      "website": "http://www.helakauppa.com",
+      "lng": 24.955646,
+      "lat": 60.182141
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24955646,
+        601821413
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Arvolukko Oy",
+      "address": "Höyläämötie 8 ",
+      "address2": null,
+      "postal": "380.0",
+      "city": "Helsinki",
+      "country": "Finland",
+      "region": "nordic-east-eu",
+      "phone": "+358 10 8211 300 ",
+      "email": "info@arvolukko.fi",
+      "website": "http://www.arvolukko.fi",
+      "lng": 24.879046,
+      "lat": 60.215917
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        248790467,
+        602159179
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Balslev",
+      "address": "Vegurin Langi",
+      "address2": null,
+      "postal": "110.0",
+      "city": "Thorshavn",
+      "country": "Faroe Islands",
+      "region": "nordic-east-eu",
+      "phone": "+298 345036",
+      "email": null,
+      "website": null,
+      "lng": -6.767124,
+      "lat": 62.030867
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -67671248,
+        620308674
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "OÃœ Hals Interiors",
+      "address": "Kadaka tee 42 H",
+      "address2": null,
+      "postal": "12915.0",
+      "city": "Tallinn",
+      "country": "Estonia",
+      "region": "nordic-east-eu",
+      "phone": "+372 7151400",
+      "email": "hals@hals.ee",
+      "website": "www.halsinteriors.ee",
+      "lng": 24.673168,
+      "lat": 59.414783
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24673168,
+        594147835
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Bygma Aars",
+      "address": "Hjotkjærsvej 2",
+      "address2": null,
+      "postal": "9600.0",
+      "city": "Aars",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": null,
+      "email": null,
+      "website": null,
+      "lng": 9.5036369,
+      "lat": 56.806198
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        95036369,
+        56806198
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "STARK",
+      "address": "SÃ¸ren Frichsvej 18",
+      "address2": null,
+      "postal": "8100.0",
+      "city": "Århus C",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 89343434",
+      "email": null,
+      "website": null,
+      "lng": 10.186227,
+      "lat": 56.15288
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        101862279,
+        561528805
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "STARK GrÃ¸nland",
+      "address": "Langerak 17",
+      "address2": null,
+      "postal": "9220.0",
+      "city": "Aalborg",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 99303255",
+      "email": null,
+      "website": null,
+      "lng": 10.048209,
+      "lat": 57.04849
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        100482095,
+        570484904
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Nordjysk Beslag A/S",
+      "address": "Gugvej 134",
+      "address2": null,
+      "postal": "9210.0",
+      "city": "Aalborg SØ",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 98146888",
+      "email": null,
+      "website": null,
+      "lng": 9.9253309,
+      "lat": 57.018124
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        99253309,
+        570181248
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Aalborg",
+      "address": "Anker Engelundsvej 8",
+      "address2": null,
+      "postal": "9200.0",
+      "city": "Aalborg SV",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 98180088",
+      "email": null,
+      "website": null,
+      "lng": 9.896576,
+      "lat": 57.012053
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9896576,
+        57012053
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Sanistål A/S, Hovedkontor",
+      "address": "Håndværkerkervej 14",
+      "address2": "Postbox 164",
+      "postal": "9000.0",
+      "city": "Aalborg",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 96306000",
+      "email": null,
+      "website": null,
+      "lng": 9.8889001,
+      "lat": 57.038477
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        98889001,
+        570384773
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Sanistål A/S",
+      "address": "Håndværkervej 14",
+      "address2": null,
+      "postal": "9000.0",
+      "city": "Aalborg",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 96306000",
+      "email": null,
+      "website": null,
+      "lng": 9.9260712,
+      "lat": 57.03356
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        99260712,
+        570335602
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Aabenraa (Region Syd)",
+      "address": "MÃ¸llemÃ¦rsk 18",
+      "address2": null,
+      "postal": "6200.0",
+      "city": "Aabenraa",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": null,
+      "email": null,
+      "website": null,
+      "lng": 9.418098,
+      "lat": 55.039546
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9418098,
+        55039546
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Davidsens Tømmerhandel A/S",
+      "address": "Fabriksvej 7",
+      "address2": null,
+      "postal": "6500.0",
+      "city": "Vojens",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 73541500",
+      "email": null,
+      "website": null,
+      "lng": 9.275525,
+      "lat": 55.241765
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9275525,
+        55241765
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-BYG Tømmergaarden Vildbjerg A/S",
+      "address": "Industrivej 1-5",
+      "address2": null,
+      "postal": "7480.0",
+      "city": "Vildbjerg",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 97131300",
+      "email": null,
+      "website": null,
+      "lng": 8.766639,
+      "lat": 56.202313
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8766639,
+        56202313
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Aarhus",
+      "address": "Jens Juuls Vej 25",
+      "address2": null,
+      "postal": "8260.0",
+      "city": "Viby J",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 87387788",
+      "email": null,
+      "website": null,
+      "lng": 10.130558,
+      "lat": 56.108806
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10130558,
+        56108806
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Bygma Viborg",
+      "address": "Lundborgvej 6",
+      "address2": null,
+      "postal": "8800.0",
+      "city": "Viborg",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 8842 0070",
+      "email": null,
+      "website": null,
+      "lng": 9.369049,
+      "lat": 56.461383
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9369049,
+        56461383
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Vejle A/S",
+      "address": "Ibæk Strandvej 13",
+      "address2": null,
+      "postal": "7100.0",
+      "city": "Vejle",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "7.64374E7",
+      "email": null,
+      "website": null,
+      "lng": 9.551016,
+      "lat": 55.700574
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9551016,
+        55700574
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Solar A/S",
+      "address": "Industrivej Vest 43",
+      "address2": null,
+      "postal": "6600.0",
+      "city": "Vejen",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 76961200",
+      "email": null,
+      "website": null,
+      "lng": 9.111794,
+      "lat": 55.490213
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9111794,
+        55490213
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Trælasten Vejen",
+      "address": "Søndergade 111",
+      "address2": null,
+      "postal": "6600.0",
+      "city": "Vejen",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 75360866",
+      "email": null,
+      "website": null,
+      "lng": 9.133785,
+      "lat": 55.464968
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9133785,
+        55464968
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Tåstrup Værktøjsmagasin Aps",
+      "address": "Høje Taastrupvej 30",
+      "address2": null,
+      "postal": "2630.0",
+      "city": "Taastrup",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 43523055",
+      "email": null,
+      "website": null,
+      "lng": 12.297936,
+      "lat": 55.646016
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        122979366,
+        556460162
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-byg Ceste Træ",
+      "address": "Tigervej 3",
+      "address2": null,
+      "postal": "7700.0",
+      "city": "Thisted",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 9792 3311",
+      "email": null,
+      "website": null,
+      "lng": 8.730514,
+      "lat": 56.964953
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8730514,
+        56964953
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL Byg Tømmergaarden Thisted",
+      "address": "Silstrupvej 89",
+      "address2": null,
+      "postal": "7700.0",
+      "city": "Thisted",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "9.61952E7",
+      "email": null,
+      "website": null,
+      "lng": 8.645731,
+      "lat": 56.954887
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8645731,
+        56954887
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Sønderborg",
+      "address": "Elholm 5",
+      "address2": null,
+      "postal": "6400.0",
+      "city": "SÃøderborg",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 55930317",
+      "email": null,
+      "website": null,
+      "lng": 9.787564,
+      "lat": 54.925104
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9787564,
+        54925104
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Jens Schultz a/s",
+      "address": "Odensevej 116",
+      "address2": null,
+      "postal": "5700.0",
+      "city": "Svendborg",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 62212428",
+      "email": null,
+      "website": null,
+      "lng": 10.57962,
+      "lat": 55.075721
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        105796207,
+        550757211
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "CF STENLILLE TØMMERHANDEL A/S",
+      "address": "Hovedgaden 36",
+      "address2": null,
+      "postal": "4295.0",
+      "city": "Stenlille",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 57804087",
+      "email": null,
+      "website": null,
+      "lng": 11.588812,
+      "lat": 55.538448
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        115888127,
+        55538448
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-Byg Stege A/S",
+      "address": "Elmevej 2",
+      "address2": null,
+      "postal": "4780.0",
+      "city": "Stege",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "5.5815115E7",
+      "email": null,
+      "website": null,
+      "lng": 12.28475,
+      "lat": 54.996848
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1228475,
+        54996848
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "A/S Møens Tømmerhandel XL-Byg",
+      "address": "Støvvasen 2",
+      "address2": null,
+      "postal": "4780.0",
+      "city": "Stege",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 55815006",
+      "email": null,
+      "website": null,
+      "lng": 12.280254,
+      "lat": 54.981621
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12280254,
+        54981621
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL Byg - Grønvold & Skou",
+      "address": "Sorøvej 19",
+      "address2": null,
+      "postal": "4200.0",
+      "city": "Slagelse",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 58554400",
+      "email": null,
+      "website": null,
+      "lng": 11.374018,
+      "lat": 55.409107
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        113740189,
+        554091074
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-Byg, Carlsen Løgten",
+      "address": "Hjelmagervej6",
+      "address2": null,
+      "postal": "8541.0",
+      "city": "Skødstrup",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 8699 1622",
+      "email": null,
+      "website": null,
+      "lng": 10.318906,
+      "lat": 56.275022
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10318906,
+        56275022
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Danbuy Amba (804058)",
+      "address": "Postboks 521",
+      "address2": "Bjørnevej 1",
+      "postal": "7800.0",
+      "city": "Skive",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 96151630",
+      "email": null,
+      "website": null,
+      "lng": 9.034711,
+      "lat": 56.535147
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9034711,
+        56535147
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-Byg Diges, Byggecenter & Proffcenter, Skive",
+      "address": "Engvej 5",
+      "address2": null,
+      "postal": "7800.0",
+      "city": "Skive",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 97521100",
+      "email": null,
+      "website": null,
+      "lng": 9.0365134,
+      "lat": 56.564695
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        90365134,
+        56564695
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Huset Holst A/S",
+      "address": "Christian X's Vej 16",
+      "address2": null,
+      "postal": "9990.0",
+      "city": "Skagen",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 98441277",
+      "email": null,
+      "website": null,
+      "lng": 10.579186,
+      "lat": 57.725004
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10579186,
+        57725004
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Silkeborg Beslag og Værktøj A/S",
+      "address": "Thrigesvej 2",
+      "address2": null,
+      "postal": "8600.0",
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 87703400",
+      "email": null,
+      "website": null,
+      "lng": 9.561159,
+      "lat": 56.198277
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9561159,
+        56198277
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Silkeborg",
+      "address": "Nørrevænget 11",
+      "address2": null,
+      "postal": "8600.0",
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 87221700",
+      "email": null,
+      "website": null,
+      "lng": 9.540742,
+      "lat": 56.183561
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9540742,
+        56183561
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-BYG Fridolf",
+      "address": "Zahrtmannsvej 67",
+      "address2": null,
+      "postal": "3700.0",
+      "city": "Rønne",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 56943311",
+      "email": null,
+      "website": null,
+      "lng": 14.710329,
+      "lat": 55.096216
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        14710329,
+        55096216
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Beslaghuset ApS",
+      "address": "Store Torv 5",
+      "address2": null,
+      "postal": "3700.0",
+      "city": "Rønne",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 56950327",
+      "email": null,
+      "website": null,
+      "lng": 14.69948,
+      "lat": 55.102027
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1469948,
+        55102027
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Rødovre Træ¦last A/S",
+      "address": "Egegårdsvej 7-10",
+      "address2": null,
+      "postal": "2610.0",
+      "city": "Rødovre",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 36702122",
+      "email": null,
+      "website": null,
+      "lng": 12.462501,
+      "lat": 55.684047
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12462501,
+        55684047
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Wandel-Petersen A/S",
+      "address": "Præstemarksvej 17",
+      "address2": null,
+      "postal": "4000.0",
+      "city": "Roskilde",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 46324401",
+      "email": null,
+      "website": null,
+      "lng": 12.110933,
+      "lat": 55.6441
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121109336,
+        556441
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Roskilde (Region Sjæ¦lland)",
+      "address": "Bytoften 4",
+      "address2": null,
+      "postal": "4000.0",
+      "city": "Roskilde",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 46350707",
+      "email": null,
+      "website": null,
+      "lng": 12.109003,
+      "lat": 55.644047
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12109003,
+        556440478
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Risskov (Region Midt og Nord)",
+      "address": "Sindalsvej 4",
+      "address2": null,
+      "postal": "8240.0",
+      "city": "Risskov",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 88420011",
+      "email": null,
+      "website": null,
+      "lng": 10.223426,
+      "lat": 56.209259
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        102234269,
+        56209259
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Værktøjscentret Ringsted a-s",
+      "address": "Huginsvej 20",
+      "address2": null,
+      "postal": "4100.0",
+      "city": "Ringsted",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 57666999",
+      "email": null,
+      "website": null,
+      "lng": 11.788573,
+      "lat": 55.424273
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        11788573,
+        55424273
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Ringsted",
+      "address": "Rugvænget 15-17",
+      "address2": null,
+      "postal": "4100.0",
+      "city": "Ringsted",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 57671188",
+      "email": null,
+      "website": null,
+      "lng": 11.805002,
+      "lat": 55.436482
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        118050026,
+        554364825
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-Byg Tømmergården Ringsted",
+      "address": "Frejasvej 11-15",
+      "address2": null,
+      "postal": "4100.0",
+      "city": "Ringsted",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "57 61 78 71",
+      "email": null,
+      "website": null,
+      "lng": 11.803529,
+      "lat": 55.431671
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        11803529,
+        55431671
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "10-4 Ringkøbing Tømmerhandel",
+      "address": "Enghavevej 17",
+      "address2": null,
+      "postal": "6950.0",
+      "city": "Ringkøbing",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 9732100",
+      "email": null,
+      "website": null,
+      "lng": 8.241503,
+      "lat": 56.092756
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8241503,
+        56092756
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-Byg Vorup, Tømmerhandel & ByggecenterA/S",
+      "address": "Nyborgvej 3",
+      "address2": null,
+      "postal": "8940.0",
+      "city": "Randers SV",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 86423822",
+      "email": null,
+      "website": null,
+      "lng": 10.03499,
+      "lat": 56.439718
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        100349901,
+        564397182
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-Byg Brejnholts Tømmerhandel A/S",
+      "address": "Ørneborgvej 46",
+      "address2": null,
+      "postal": "8900.0",
+      "city": "Randers",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 86401388",
+      "email": null,
+      "website": null,
+      "lng": 10.067715,
+      "lat": 56.451275
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10067715,
+        56451275
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Trægården Kås A/S",
+      "address": "Brogårdsgade 12-19, KÃ¥s",
+      "address2": null,
+      "postal": "9490.0",
+      "city": "Pandrup",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "98 24 52 22",
+      "email": null,
+      "website": null,
+      "lng": 9.7123194,
+      "lat": 57.170905
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        97123194,
+        571709059
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-Byg Otterup Trælast A/S",
+      "address": "Hjorslevvej 2",
+      "address2": null,
+      "postal": "5450.0",
+      "city": "Otterup",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 63822233",
+      "email": null,
+      "website": null,
+      "lng": 10.398185,
+      "lat": 55.507426
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10398185,
+        55507426
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Odense Vest",
+      "address": "Rughøjvej 11",
+      "address2": null,
+      "postal": "5250.0",
+      "city": "Odense SV",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "4.565961781E9",
+      "email": null,
+      "website": null,
+      "lng": 10.297855,
+      "lat": 55.338289
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10297855,
+        55338289
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Bygma Næstved, H. O. Birksted",
+      "address": "Holsted Park 10",
+      "address2": null,
+      "postal": "4700.0",
+      "city": "Næstved",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 55721600",
+      "email": null,
+      "website": null,
+      "lng": 11.775765,
+      "lat": 55.248593
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        11775765,
+        55248593
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-BYG C. Aarslew-Jensen A/S",
+      "address": "Gaabensevej 44",
+      "address2": null,
+      "postal": "4800.0",
+      "city": "Nykøbing F",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 54853111",
+      "email": null,
+      "website": null,
+      "lng": 11.867246,
+      "lat": 54.776375
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        118672468,
+        547763757
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "EA Værktøj Engros A/S",
+      "address": "Mandal Alle 5",
+      "address2": null,
+      "postal": "5500.0",
+      "city": "Middelfart",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 7921 1100",
+      "email": null,
+      "website": null,
+      "lng": 9.7704229,
+      "lat": 55.501607
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        97704229,
+        55501607
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "P. Hatten & Co. A/S",
+      "address": "C. E. Christiansens Vej 25",
+      "address2": null,
+      "postal": "4930.0",
+      "city": "Maribo",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 54781122",
+      "email": null,
+      "website": null,
+      "lng": 11.50737,
+      "lat": 54.774717
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1150737,
+        54774717
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-Byg Mariager, Mariager Tømmerhandel & Byggecent",
+      "address": "Himmelkol 1",
+      "address2": null,
+      "postal": "9550.0",
+      "city": "Mariager",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 98541400",
+      "email": null,
+      "website": null,
+      "lng": 9.9734196,
+      "lat": 56.638702
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        99734196,
+        56638702
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "CF Petersen og Søn A/S",
+      "address": "Værftsvej 51",
+      "address2": null,
+      "postal": "4600.0",
+      "city": "Køge",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 56650024",
+      "email": null,
+      "website": null,
+      "lng": 12.189257,
+      "lat": 55.479482
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121892573,
+        554794821
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Østerbro Tømmerhandel ApS",
+      "address": "Omøgade 14",
+      "address2": null,
+      "postal": "2100.0",
+      "city": "København Ø",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 39201249",
+      "email": null,
+      "website": null,
+      "lng": 12.563594,
+      "lat": 55.71166
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12563594,
+        5571166
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-BYG Øbro træ",
+      "address": "Kattegatvej 8",
+      "address2": null,
+      "postal": "2100.0",
+      "city": "København Ø",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 39162000",
+      "email": null,
+      "website": null,
+      "lng": 12.607886,
+      "lat": 55.718899
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12607886,
+        55718899
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Carl Møller Trælasthandel A/S",
+      "address": "Vesterbrogade 149",
+      "address2": null,
+      "postal": "1620.0",
+      "city": "København V",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 33212849",
+      "email": null,
+      "website": null,
+      "lng": 12.538539,
+      "lat": 55.67018
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        125385396,
+        556701809
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Ehlers Finans v/ Agnes G. Ehlers",
+      "address": "Sølvgade 19",
+      "address2": null,
+      "postal": "1307.0",
+      "city": "København K",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 33157475",
+      "email": null,
+      "website": null,
+      "lng": 12.584031,
+      "lat": 55.685732
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        125840313,
+        556857323
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Illums Bolighus A/S",
+      "address": "Amagertorv 10",
+      "address2": null,
+      "postal": "1160.0",
+      "city": "København K",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 33141941",
+      "email": null,
+      "website": null,
+      "lng": 12.578578,
+      "lat": 55.678908
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12578578,
+        55678908
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "møller& mammen ApS",
+      "address": "Gothersgade 42",
+      "address2": null,
+      "postal": "1123.0",
+      "city": "København K",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 33140540",
+      "email": null,
+      "website": null,
+      "lng": 12.582424,
+      "lat": 55.682327
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        125824245,
+        556823274
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Fog Trælast Kvistgård",
+      "address": "Egeskovvej 1",
+      "address2": null,
+      "postal": "3490.0",
+      "city": "Kvistgård",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 49125050",
+      "email": null,
+      "website": null,
+      "lng": 12.499173,
+      "lat": 55.990636
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12499173,
+        55990636
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Fog Trælast Lyngby",
+      "address": "Firskovvej 20",
+      "address2": null,
+      "postal": "2800.0",
+      "city": "Kongens Lyngby",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+",
+      "email": null,
+      "website": null,
+      "lng": 12.517097,
+      "lat": 55.769744
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        125170971,
+        557697446
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Fog Byggecenter Lyngby",
+      "address": "Nørgaardsvej 3",
+      "address2": null,
+      "postal": "2800.0",
+      "city": "Kongens Lyngby",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 45871001",
+      "email": null,
+      "website": null,
+      "lng": 12.507109,
+      "lat": 55.769877
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        125071093,
+        557698771
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Kolding",
+      "address": "Gejlhavegård 2A",
+      "address2": null,
+      "postal": "6000.0",
+      "city": "Kolding",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 7630 2711",
+      "email": null,
+      "website": null,
+      "lng": 9.470065,
+      "lat": 55.46874
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9470065,
+        5546874
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL Byg - Kjellerup TÃ¸mmerhandel",
+      "address": "Vinkelvej 1",
+      "address2": "Postboks 69",
+      "postal": "8620.0",
+      "city": "Kjellerup",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "8.77025E7",
+      "email": null,
+      "website": null,
+      "lng": 9.435532,
+      "lat": 56.284643
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9435532,
+        56284643
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-BYG Meredin Kalundborg",
+      "address": "Bredgade 48",
+      "address2": null,
+      "postal": "4400.0",
+      "city": "Kalundborg",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 59 57 55 68",
+      "email": null,
+      "website": null,
+      "lng": 11.0926058,
+      "lat": 55.6786929
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        110926058,
+        556786929
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Hansen Lellinge A/S",
+      "address": "Broenge 14",
+      "address2": null,
+      "postal": "2635.0",
+      "city": "Ishøj",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 43711640",
+      "email": null,
+      "website": null,
+      "lng": 12.321297,
+      "lat": 55.620887
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12321297,
+        556208874
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-BYG Hørve Byggecenter",
+      "address": "Nørregade 31",
+      "address2": null,
+      "postal": "4534.0",
+      "city": "Hørve",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": null,
+      "email": null,
+      "website": null,
+      "lng": 11.453984,
+      "lat": 55.756296
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        114539842,
+        557562962
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Fog Trælast og Byggecenter Hørsholm",
+      "address": "Kokkedal Industripark 15",
+      "address2": null,
+      "postal": "2970.0",
+      "city": "Hørsholm",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 45861010",
+      "email": null,
+      "website": null,
+      "lng": 12.484723,
+      "lat": 55.902181
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        124847236,
+        55902181
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Knud Larsen Professionel A/S",
+      "address": "Hammerholmen 8-16",
+      "address2": null,
+      "postal": "2650.0",
+      "city": "Hvidovre",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 36398282",
+      "email": null,
+      "website": null,
+      "lng": 12.482424,
+      "lat": 55.612262
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12482424,
+        55612262
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Knud Larsen Byggecenter",
+      "address": "Gammel Køge Landevej 515-537",
+      "address2": null,
+      "postal": "2650.0",
+      "city": "Hvidovre",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 36786088",
+      "email": null,
+      "website": null,
+      "lng": 12.464984,
+      "lat": 55.622179
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12464984,
+        55622179
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Horsens",
+      "address": "Endelavevej 6",
+      "address2": null,
+      "postal": "8700.0",
+      "city": "Horsens",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 75626277",
+      "email": null,
+      "website": null,
+      "lng": 9.850668,
+      "lat": 55.853155
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9850668,
+        55853155
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Classic Fifty-Sixty",
+      "address": "Vangebovej 52-54",
+      "address2": null,
+      "postal": "2840.0",
+      "city": "Holte",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 4580 0058",
+      "email": null,
+      "website": null,
+      "lng": 12.50202,
+      "lat": 55.80984
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        125020201,
+        558098407
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Hjørring",
+      "address": "Farøvej 29",
+      "address2": null,
+      "postal": "9800.0",
+      "city": "Hjørring",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 98923611",
+      "email": null,
+      "website": null,
+      "lng": 10.019981,
+      "lat": 57.452963
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10019981,
+        57452963
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Frederiksborg Tømmerhandel",
+      "address": "Industrivænget 16",
+      "address2": null,
+      "postal": "3400.0",
+      "city": "Hillerød",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 48261221",
+      "email": null,
+      "website": null,
+      "lng": 12.276967,
+      "lat": 55.932862
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12276967,
+        55932862
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Roslev - Herning Tømmergård",
+      "address": "Hedelandsvej 10-12",
+      "address2": null,
+      "postal": "7400.0",
+      "city": "Herning",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 97221600",
+      "email": null,
+      "website": null,
+      "lng": 8.936678,
+      "lat": 56.128609
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8936678,
+        56128609
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Herning",
+      "address": "Mårupvej 17",
+      "address2": null,
+      "postal": "7400.0",
+      "city": "Herning",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 96281600",
+      "email": null,
+      "website": null,
+      "lng": 8.9454309,
+      "lat": 56.127418
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        89454309,
+        56127418
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Carl Ras A/S",
+      "address": "Mileparken 31",
+      "address2": null,
+      "postal": "2730.0",
+      "city": "Herlev",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 44855511",
+      "email": null,
+      "website": null,
+      "lng": 12.431568,
+      "lat": 55.716582
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        124315684,
+        557165825
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA A/S",
+      "address": "Transformervej 12",
+      "address2": null,
+      "postal": "2730.0",
+      "city": "Herlev",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 44541700",
+      "email": null,
+      "website": null,
+      "lng": 12.466189,
+      "lat": 55.731615
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12466189,
+        55731615
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Lemvigh-Møller A/S",
+      "address": "Stationsalleen 40",
+      "address2": null,
+      "postal": "2730.0",
+      "city": "Herlev",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 33141414",
+      "email": null,
+      "website": null,
+      "lng": 12.445148,
+      "lat": 55.719422
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12445148,
+        55719422
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Danzafe A/S",
+      "address": "Marielundvej 45D",
+      "address2": null,
+      "postal": "2730.0",
+      "city": "Herlev",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 38283111",
+      "email": null,
+      "website": null,
+      "lng": 12.430342,
+      "lat": 55.714359
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        124303428,
+        557143593
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "BYGMA Haslev",
+      "address": "Maglemosevej 13",
+      "address2": null,
+      "postal": "4690.0",
+      "city": "Haslev",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "4.5563111E9",
+      "email": null,
+      "website": null,
+      "lng": 11.948617,
+      "lat": 55.331084
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        119486175,
+        55331084
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Skibby Handel & Engros ApS",
+      "address": "Skibbyvej 49",
+      "address2": "Skibby",
+      "postal": "8462.0",
+      "city": "Harlev J",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": null,
+      "email": null,
+      "website": null,
+      "lng": 10.051172,
+      "lat": 56.142484
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10051172,
+        56142484
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-BYG Hadsund",
+      "address": "Tømmerhandel & Byggecenter A/S",
+      "address2": "Industriparken 2",
+      "postal": "9560.0",
+      "city": "Hadsund",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "9.6528E7",
+      "email": null,
+      "website": null,
+      "lng": 10.137207,
+      "lat": 56.728421
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10137207,
+        56728421
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Flyvholm Beslag & Værktøj A/S",
+      "address": "Nordhavnsvej 5",
+      "address2": null,
+      "postal": "6100.0",
+      "city": "Haderslev",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 74526576",
+      "email": null,
+      "website": null,
+      "lng": 9.5020495,
+      "lat": 55.252104
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        95020495,
+        552521042
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Expert-Beslag A/S",
+      "address": "Smedeland 1B",
+      "address2": null,
+      "postal": "2600.0",
+      "city": "Glostrup",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 70270905",
+      "email": null,
+      "website": null,
+      "lng": 12.389106,
+      "lat": 55.677295
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12389106,
+        55677295
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-BYG Gjern Tømmerhandel A/S",
+      "address": "Søndergade 62",
+      "address2": null,
+      "postal": "8883.0",
+      "city": "Gjern",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 86875888",
+      "email": null,
+      "website": null,
+      "lng": 9.742492,
+      "lat": 56.220071
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9742492,
+        56220071
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Fog Trælast og Byggecenter, Fredensborg",
+      "address": "Kongevejen 25",
+      "address2": null,
+      "postal": "3480.0",
+      "city": "Fredensborg",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 48480013",
+      "email": null,
+      "website": null,
+      "lng": 12.403857,
+      "lat": 55.96826
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        124038578,
+        559682604
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Fog Trælast og Byggecenter Farum",
+      "address": "Gydevej 59",
+      "address2": null,
+      "postal": "3520.0",
+      "city": "Farum",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 44950164",
+      "email": null,
+      "website": null,
+      "lng": 12.361764,
+      "lat": 55.818693
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12361764,
+        55818693
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-BYG Steff-Byg A/S",
+      "address": "Postboks 3115",
+      "address2": null,
+      "postal": "6710.0",
+      "city": "Esbjerg V",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 75459800",
+      "email": null,
+      "website": null,
+      "lng": 8.3640495,
+      "lat": 55.550437
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        83640495,
+        555504377
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Meldgaards Låse og Nøgler",
+      "address": "Jægersborg Alle 19",
+      "address2": null,
+      "postal": "2920.0",
+      "city": "Charlottenlund",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 39646666",
+      "email": null,
+      "website": null,
+      "lng": 12.570193,
+      "lat": 55.75378
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        125701933,
+        557537807
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Brdr. Friis Møbler",
+      "address": "Mellemvangen 30",
+      "address2": null,
+      "postal": "2700.0",
+      "city": "Brønshøj",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 38800005",
+      "email": null,
+      "website": null,
+      "lng": 12.508223,
+      "lat": 55.709144
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        125082231,
+        557091445
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Brødrene Dahl A/S",
+      "address": "Park Alle 370",
+      "address2": "Postbox 304",
+      "postal": "2605.0",
+      "city": "Brøndby",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 43200202",
+      "email": null,
+      "website": null,
+      "lng": 12.414886,
+      "lat": 55.647305
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12414886,
+        556473055
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Optimera A/S",
+      "address": "Park Alle 370",
+      "address2": "P.O. Box 304",
+      "postal": "2605.0",
+      "city": "Brøndby",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": null,
+      "email": null,
+      "website": null,
+      "lng": 12.414886,
+      "lat": 55.647305
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12414886,
+        556473055
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Birkerød Værktøjsmagasin",
+      "address": "Birkerød Kongevej 62",
+      "address2": null,
+      "postal": "3460.0",
+      "city": "Birkerød",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 45816003",
+      "email": null,
+      "website": null,
+      "lng": 12.440199,
+      "lat": 55.841029
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12440199,
+        558410293
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "XL-Byg, Rold Trælasthandel A/S",
+      "address": "Ã˜stergade 23",
+      "address2": null,
+      "postal": "9510.0",
+      "city": "Arden",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 99 4040 00",
+      "email": null,
+      "website": null,
+      "lng": 9.8636839,
+      "lat": 56.76773
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        98636839,
+        5676773
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Lyngby Tømmerhandel A/S - XL-Byg",
+      "address": "Sortemosevej 14",
+      "address2": null,
+      "postal": "3450.0",
+      "city": "Allerød",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 48135800",
+      "email": null,
+      "website": null,
+      "lng": 12.372809,
+      "lat": 55.864352
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12372809,
+        55864352
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line as",
+      "address": "Roholmsvej 12 F",
+      "address2": null,
+      "postal": "2620.0",
+      "city": "Albertslund",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "45 7217 0138",
+      "email": "info@dline.com",
+      "website": "http://dline.com",
+      "lng": 12.360232,
+      "lat": 55.667875
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12360232,
+        556678758
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Topco A/S",
+      "address": "Roholmsvej 8",
+      "address2": null,
+      "postal": "2620.0",
+      "city": "Albertslund",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 78107250",
+      "email": null,
+      "website": null,
+      "lng": 12.360555,
+      "lat": 55.666842
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12360555,
+        55666842
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Brødrene A & O Johansen A/S",
+      "address": "Rørvang 3",
+      "address2": null,
+      "postal": "2620.0",
+      "city": "Albertslund",
+      "country": "Denmark",
+      "region": "nordic-east-eu",
+      "phone": "+45 70280000",
+      "email": null,
+      "website": null,
+      "lng": 12.363405,
+      "lat": 55.665577
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12363405,
+        55665577
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "STILL - The Bathroom Gallery",
+      "address": "Unit 110a The Foundry, 74 Prestwich Street, Green Point",
+      "address2": null,
+      "postal": "8001.0",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "region": "middle-east-africa",
+      "phone": "+27 21 42199702",
+      "email": "info@stillbathrooms.co.za",
+      "website": "http://www.stillbathrooms.co.za",
+      "lng": 18.41867,
+      "lat": -33.91245
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1841867,
+        -3391245
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line Middle East and Africa",
+      "address": "P.O.BOX 444975",
+      "address2": "Mirdiff, Dubai",
+      "postal": null,
+      "city": null,
+      "country": "Qatar",
+      "region": "middle-east-africa",
+      "phone": "00971 506585344",
+      "email": "bf@dline.com",
+      "website": "http://www.dline.com",
+      "lng": 51.478763,
+      "lat": 25.253519
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        51478763,
+        252535193
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line Middle East and Africa",
+      "address": "P.O.BOX 444975",
+      "address2": "Mirdiff, Dubai",
+      "postal": null,
+      "city": null,
+      "country": "Oman",
+      "region": "middle-east-africa",
+      "phone": "00971 506585344",
+      "email": "bf@dline.com",
+      "website": "http://www.dline.com",
+      "lng": 58.575564,
+      "lat": 23.621726
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        585755646,
+        236217265
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line Middle East and Africa",
+      "address": "P.O.BOX 444975",
+      "address2": "Mirdiff, Dubai",
+      "postal": null,
+      "city": null,
+      "country": "Lebanon",
+      "region": "middle-east-africa",
+      "phone": "00971 506585344",
+      "email": "bf@dline.com",
+      "website": "http://www.dline.com",
+      "lng": 35.578307,
+      "lat": 33.879848
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        355783071,
+        338798483
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line Middle East and Africa",
+      "address": "P.O.BOX 444975",
+      "address2": "Mirdiff, Dubai",
+      "postal": null,
+      "city": null,
+      "country": "Kingdom Of Bahrain",
+      "region": "middle-east-africa",
+      "phone": "00971 506585344",
+      "email": "bf@dline.com",
+      "website": "http://www.dline.com",
+      "lng": 50.534419,
+      "lat": 26.20196
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        505344196,
+        262019604
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line Middle East and Africa",
+      "address": "P.O.BOX 444975 ",
+      "address2": null,
+      "postal": null,
+      "city": "Mirdiff",
+      "country": "United Arab Emirates",
+      "region": "middle-east-africa",
+      "phone": "00971 506585344",
+      "email": "bf@dline.com",
+      "website": "http://www.dline.com",
+      "lng": 55.422854,
+      "lat": 25.233617
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        55422854,
+        25233617
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line Middle East and Africa",
+      "address": "E-Lob Office No. E-79G-34, Hamriyah Free Zone, Sharjah, P.O.BOX 444975",
+      "address2": "Mirdiff",
+      "postal": null,
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "region": "middle-east-africa",
+      "phone": "00971 506585344",
+      "email": "bf@dline.com",
+      "website": "http://www.dline.com",
+      "lng": 55.422714,
+      "lat": 25.225218
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        55422714,
+        252252184
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Aegis Infrasolutions Pvt. Ltd.",
+      "address": "C/2, Bandal Dhankude Plaza, Opp. Kothrud Depot,",
+      "address2": null,
+      "postal": "411038.0",
+      "city": "Pune",
+      "country": "India",
+      "region": "India",
+      "phone": "00(91) - (95) - 60895571",
+      "email": "pooja@aegisinfra.in ",
+      "website": null,
+      "lng": null,
+      "lat": null
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Aegis Infrasolutions Pvt. Ltd.",
+      "address": "No. C- 15, Shah Complex- 1,Plot No. 06, Palm Beach Road, Sector- 13",
+      "address2": "Sanpada, Navi Mumbai ",
+      "postal": "400 705",
+      "city": "Mumbai ",
+      "country": "India",
+      "region": "India",
+      "phone": "00(91) - (22) - 27812550",
+      "email": "pooja@aegisinfra.in ",
+      "website": null,
+      "lng": null,
+      "lat": null
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Aegis Infrasolutions Pvt. Ltd.",
+      "address": "1522, Hemkunt Chamber, 89 Nehru Place,",
+      "address2": null,
+      "postal": "110019.0",
+      "city": "Delhi",
+      "country": "India",
+      "region": "India",
+      "phone": "00(91) - (95) - 60895571",
+      "email": "pooja@aegisinfra.in ",
+      "website": null,
+      "lng": null,
+      "lat": null
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Aegis Infrasolutions Pvt. Ltd.",
+      "address": "MF2 Guindy Industrial Estate, Ekkattuthangal,",
+      "address2": null,
+      "postal": "600097.0",
+      "city": "Chennai",
+      "country": "India",
+      "region": "India",
+      "phone": "00(91) - (95) - 60895571",
+      "email": "pooja@aegisinfra.in ",
+      "website": null,
+      "lng": null,
+      "lat": null
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "C.A Trading Co.,Ltd.",
+      "address": "68A Tran Dinh Xu Street",
+      "address2": "District 1",
+      "postal": "0.0",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "region": "asia-pacific",
+      "phone": "+84 89203657",
+      "email": "daodm@catrading.vn",
+      "website": "http://www.catrading.vn",
+      "lng": 106.62966,
+      "lat": 10.823098
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1066296638,
+        108230989
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Hakon Company Ltd.",
+      "address": "1/794-5 Moo Soi Phahonyothin 60",
+      "address2": "Phahoonyothin Rd., Kookod, Lumlukka, Pathumthani",
+      "postal": "12130.0",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "region": "asia-pacific",
+      "phone": "+66 29938051",
+      "email": null,
+      "website": null,
+      "lng": 100.52412,
+      "lat": 13.727895
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1005241235,
+        137278956
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line korea co.,ltd.",
+      "address": "#112-15 Samsung-dong, Gangnam-gu",
+      "address2": "Seoul 135874 Korea",
+      "postal": null,
+      "city": "Seoul",
+      "country": "South Korea",
+      "region": "asia-pacific",
+      "phone": "+82 2 3453 0940",
+      "email": "dlinekorea@daum.net",
+      "website": null,
+      "lng": 127.045714,
+      "lat": 37.516589
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        127.045714,
+        37.516589
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "SAMKYUNG TRADING CORPORATION",
+      "address": "37-17 Nonhyung-Dong",
+      "address2": "Gangnam-Gu",
+      "postal": "135815.0",
+      "city": "Seoul",
+      "country": "South Korea",
+      "region": "asia-pacific",
+      "phone": "+82 025402305",
+      "email": "seoul@samkyung.net",
+      "website": null,
+      "lng": 126.97796,
+      "lat": 37.566535
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1269779692,
+        37566535
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line Asia Pvt Ltd",
+      "address": "18 Kaki Bukit Road 3",
+      "address2": "#05-17 Entrepreneur Business Centre",
+      "postal": "415978.0",
+      "city": "Singapore",
+      "country": "Singapore",
+      "region": "asia-pacific",
+      "phone": "+65 63774101",
+      "email": "info@dline.com",
+      "website": "http://www.dline.com",
+      "lng": 103.90269,
+      "lat": 1.33807
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        103902694,
+        1338070
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "RESILIENT MARKETING SDN. BHD",
+      "address": "15-19, Lorong Jintan 2",
+      "address2": "Taman Supreme, Cheras",
+      "postal": "56100.0",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "region": "asia-pacific",
+      "phone": "+603 91302903",
+      "email": "sales@resilient.com.my",
+      "website": "http://www.resilient.com.my",
+      "lng": 101.74415,
+      "lat": 3.0978184
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1017441595,
+        30978184
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "SRI RIBUAN INDUSTRIES SDN BHD ",
+      "address": "No. 4,Jalan Tembaga SD 5/2,",
+      "address2": "Bandar Sri Damansara.",
+      "postal": "52200.0",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "region": "asia-pacific",
+      "phone": "+603 62724588",
+      "email": "william@sriribuan.com.my",
+      "website": "http://www.sriribuan.com.my",
+      "lng": 101.68892,
+      "lat": 3.091008
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        101688927,
+        3091008
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Primeclass d line Sdn Bhd",
+      "address": "5th.Floor, Prima 8,",
+      "address2": "Prima Avenue,Block 3508 Jalan Teknokrat 6",
+      "postal": "63000.0",
+      "city": "Cyberjaya, Selangor",
+      "country": "Malaysia",
+      "region": "asia-pacific",
+      "phone": "+603 8318 1001",
+      "email": "mike@pdline.com.my",
+      "website": null,
+      "lng": 101.654,
+      "lat": 2.916652
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        101654003,
+        2916652
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Sugatsune Kogyo Co. Ltd.",
+      "address": "1-8-11, Higashi-Kanda",
+      "address2": "Chiyoda-ku",
+      "postal": "101-8633",
+      "city": "Tokyo",
+      "country": "Japan",
+      "region": "asia-pacific",
+      "phone": "+81 338662267",
+      "email": "import@sugatsune.co.jp",
+      "website": "http://www.sugatsune.co.jp",
+      "lng": 139.77944,
+      "lat": 35.69425
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1397794408,
+        356942507
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "P.T. Seni Mulia",
+      "address": "Jl. Panglima Polim Raya No. 25",
+      "address2": null,
+      "postal": "12160.0",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "region": "asia-pacific",
+      "phone": "+62 217261230",
+      "email": "naya@selarasindah.com",
+      "website": null,
+      "lng": 106.79813,
+      "lat": -6.246793
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        106798136,
+        -6246793
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Tung Fat Ho Building Material",
+      "address": "B4, 1/F., Yip Fung Industrial Bldg,",
+      "address2": "28-36 Kwai Fung Crescent",
+      "postal": "1.0",
+      "city": "Kwai Chung",
+      "country": "Hong Kong",
+      "region": "asia-pacific",
+      "phone": "+852 24876199",
+      "email": "salesteama@tfhbml.com.hk",
+      "website": null,
+      "lng": 114.12507,
+      "lat": 22.355853
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1141250773,
+        223558536
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "d line Trading (shanghai) co. Ltd.",
+      "address": "Room 1903, Building 8",
+      "address2": "Hi-Shanghai Loft",
+      "postal": "200092.0",
+      "city": "Shanghai",
+      "country": "China",
+      "region": "asia-pacific",
+      "phone": "+86 21 6142 0085",
+      "email": "max@dlinechina.com",
+      "website": null,
+      "lng": 121.50644,
+      "lat": 31.275105
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1215064416,
+        312751052
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Keeler Hardware Pty. Ltd.",
+      "address": "37 Ellen Street",
+      "address2": null,
+      "postal": "2500.0",
+      "city": "Wollongong NSW",
+      "country": "Australia",
+      "region": "asia-pacific",
+      "phone": "+61 2 42262522",
+      "email": "dline@keelerhardware.com.au",
+      "website": "http://www.keelerhardware.com.au",
+      "lng": 150.88966,
+      "lat": -34.42964
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        150889662,
+        -34429643
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Keeler Hardware Pty. Limited",
+      "address": "184 High Street",
+      "address2": "PO Box 558",
+      "postal": "2068.0",
+      "city": "Willoughby NSW",
+      "country": "Australia",
+      "region": "asia-pacific",
+      "phone": "+61 289665966",
+      "email": "dline@keelerhardware.com.au",
+      "website": "http://www.keelerhardware.com.au",
+      "lng": 151.19936,
+      "lat": -33.80522
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1511993606,
+        -338052288
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Keeler Hardware Pty. Ltd.",
+      "address": "172 Coventry Street",
+      "address2": null,
+      "postal": "3205.0",
+      "city": "South Melbourne Victoria",
+      "country": "Australia",
+      "region": "asia-pacific",
+      "phone": "+61 3 96813199",
+      "email": "dline@keelerhardware.com.au",
+      "website": "http://www.keelerhardware.com.au",
+      "lng": 144.9641,
+      "lat": -37.83048
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        144964107,
+        -3783048
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Keeler Hardware Pty. Ltd.",
+      "address": "4a/7 Camford Street",
+      "address2": null,
+      "postal": "4064.0",
+      "city": "Milton QLD",
+      "country": "Australia",
+      "region": "asia-pacific",
+      "phone": "+61 7 33678827",
+      "email": "dline@keelerhardware.com.au",
+      "website": "http://www.keelerhardware.com.au",
+      "lng": 153.00149,
+      "lat": -27.47241
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        153001497,
+        -27472411
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Keeler Hardware Pty. Ltd.",
+      "address": "8 Wiluna Street",
+      "address2": null,
+      "postal": "2609.0",
+      "city": "Fyshwick ACT",
+      "country": "Australia",
+      "region": "asia-pacific",
+      "phone": "+61 2 62807176",
+      "email": "dline@keelerhardware.com.au",
+      "website": "http://www.keelerhardware.com.au",
+      "lng": 149.16504,
+      "lat": -35.32939
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1491650472,
+        -353293937
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "Henrik Hall Inc., d Line North America",
+      "address": "410 Park Avenue",
+      "address2": null,
+      "postal": "10022.0",
+      "city": "New York",
+      "country": "United States",
+      "region": "americas",
+      "phone": "+1 5167595669",
+      "email": "info@designlinesbyhhi.com",
+      "website": "http://www.designlinesbyhhi.com",
+      "lng": -73.97223,
+      "lat": 40.760218
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -73972232,
+        40760218
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "The Ironmonger inc",
+      "address": "122 West Illinois Street",
+      "address2": null,
+      "postal": "60654.0",
+      "city": "Chicago",
+      "country": "United States",
+      "region": "americas",
+      "phone": "1-312-527-4800",
+      "email": "sales@ironmonger.net",
+      "website": "http://www.ironmonger.net",
+      "lng": -87.63185,
+      "lat": 41.890826
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -876318554,
+        418908264
+      ]
+    }
+  }
+]

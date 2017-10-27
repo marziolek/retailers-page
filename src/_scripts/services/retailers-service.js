@@ -49,7 +49,7 @@
 
       setTimeout(function () {
         if (onResponse) {
-          var filteredLocations = this.filterRetailerLocations(query);
+          var filteredLocations = filterRetailerLocations(query);
 
           onResponse({
             locations: filteredLocations,
@@ -71,10 +71,47 @@
       }, 3000);
     }
 
-    this.filterRetailerLocations = function(region) {
-      console.log(region)
+    var filterRetailerLocations = function(region) {
+      var regions = [],
+        countries = [],
+        specific = [];
+      for (var i in region) {
+        if (!$.isEmptyObject(region[i])) {
+          for (var j in region[i]) {
+            if (!$.isEmptyObject(region[i][j])) {
+              specific.push(region[i][j])
+            } else {
+              countries.push(j)
+            }
+          }
+        } else {
+          regions.push(i)
+        }
+      }
+      console.log(regions, countries, specific)
       var locations = [];
+      retailersEuropeLocations.forEach( function(retailer) {
+        if (specific.length) {
 
+        } else if (countries.length) {
+          if (
+            retailer
+            && retailer.properties
+            && countries.indexOf(retailer.properties.country.replace(/\s+/g, '-').toLowerCase()) > -1
+          ) {
+            locations.push(retailer)
+          }
+        } else if (regions.length) {
+          if (
+            retailer
+            && retailer.properties
+            && retailer.properties.region === regions[0]
+          ) {
+            locations.push(retailer)
+          }
+        }
+      });
+      return locations;
     }
   };
 

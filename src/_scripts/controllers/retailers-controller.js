@@ -30,6 +30,7 @@
       onChange: function (filterSelection) {
         // When the filter changes, fetch matching retailers from the backend.
         retailersService.search(filterSelection, function (data) {
+          console.log(data)
           // add loaded items to DOM
           $results.children().remove();
           $results.append(data.markup);

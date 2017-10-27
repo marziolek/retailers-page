@@ -49,18 +49,32 @@
 
       setTimeout(function () {
         if (onResponse) {
-          onResponse(mockData.search);
+          var filteredLocations = this.filterRetailerLocations(query);
+
+          onResponse({
+            locations: filteredLocations,
+            markup: [
+              '<div class="retailers-page__result"><h4 class="header-small l-col-pad"><strong>funenasd</strong></h4><div class="retailers"><div class="retailer l-col-pad text"><strong>Jens Schultz A/S</strong><div class="address"><p>Odensevej 116</p><p>5700</p><p>Denmark</p></div><div class="contact"><p>Phone</p><p>( +45 ) 72 17 01 38</p></div><div class="contact"><p>Fax</p><p>( +45 ) 72 17 01 39</p></div></div><div class="retailer l-col-pad text"><strong>Bygma Odense Vest</strong><div class="address"><p>Rughøjvej 11</p><p>5250 Odensen SV</p><p>Denmark</p></div><div class="contact"><p>Phone</p><p>( +45 ) 72 17 01 38</p></div><a href="mailto:odensenvest@bygma.com" class="email link link--underline">odensenvest@bygma.com</a></div><div class="retailer l-col-pad text"><strong>Jens Schultz A/S</strong><div class="address"><p>Odensevej 116</p><p>5700</p><p>Denmark</p></div><div class="contact"><p>Phone</p><p>( +45 ) 72 17 01 38</p></div><div class="contact"><p>Fax</p><p>( +45 ) 72 17 01 39</p></div></div><div class="retailer l-col-pad text"><strong>Jens Schultz A/S</strong><div class="address"><p>Odensevej 116</p><p>5700</p><p>Denmark</p></div><div class="contact"><p>Phone</p><p>( +45 ) 72 17 01 38</p></div><div class="contact"><p>Fax</p><p>( +45 ) 72 17 01 39</p></div></div><div class="retailer l-col-pad text"><strong>Jens Schultz A/S</strong><div class="address"><p>Odensevej 116</p><p>5700</p><p>Denmark</p></div><div class="contact"><p>Phone</p><p>( +45 ) 72 17 01 38</p></div><div class="contact"><p>Fax</p><p>( +45 ) 72 17 01 39</p></div></div></div></div>'
+            ]
+          });
+          // onResponse(mockData.search);
         }
       }, 400);
     };
 
-    this.getRetailerLocations = function (onResponse) {
+    this.getRetailerLocations = function(onResponse) {
       setTimeout(function () {
         if (onResponse) {
           // onResponse(mockData.getRetailerLocations);
           onResponse(retailersEuropeLocations);
         }
       }, 3000);
+    }
+
+    this.filterRetailerLocations = function(region) {
+      console.log(region)
+      var locations = [];
+
     }
   };
 

@@ -55,15 +55,37 @@
       locations = [];
 
       // Add new markers
+      var goodJson = [];
       for (var i = 0; i < _locations.length; i++) {
-        var marker = new google.maps.Marker({
-          position: _locations[i],
-          map: map,
-          icon: markerImage
-        });
-        locations.push(marker);
-      }
+        var pos = _locations[i];
+        if (pos.properties) {
+          pos = {
+            lat: _locations[i].properties.lat,
+            lng: _locations[i].properties.lng
+          }
 
+          // if (pos.lat && pos.lng) {
+          //   var latStr = _locations[i].properties.lat.toString().substring(0,8),
+          //     lngStr = _locations[i].properties.lng.toString().substring(0,7);
+
+          //   var newLat = parseFloat(latStr.substr(0, latStr.length - 6) + '.' + latStr.slice(-6)),
+          //     newLng = parseFloat(lngStr.substr(0, lngStr.length - 6) + '.' + lngStr.slice(-6));
+
+          //   _locations[i].properties.lat = newLat;
+          //   _locations[i].properties.lng = newLng;
+          // }
+          // console.log(pos, _locations[i].properties.name)
+          goodJson.push(_locations[i])
+        }
+        if (pos.lat && pos.lng && _locations[i].properties) {
+          var marker = new google.maps.Marker({
+            position: pos,
+            map: map,
+            icon: markerImage
+          });
+          locations.push(marker);
+        }
+      }
       fitBounds();
     };
 

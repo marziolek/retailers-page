@@ -120,6 +120,7 @@
 
       setIndicators();
 
+      console.log(selection)
       // Invoke callback
       if (settings && settings.onChange) {
         settings.onChange(selection);

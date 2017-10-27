@@ -45,8 +45,8 @@
     // When the Google Map has been initialized fetch all retailer locations and add them to the map
     var onGoogleMapsInit = function () {
       retailersService.getRetailerLocations(function (locations) {
-        console.log(locations)
-        // googleMaps.setLocations(locations);
+        console.log(locations);
+        googleMaps.setLocations(locations);
       });
     };
 

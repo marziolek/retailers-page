@@ -1,0 +1,22 @@
+.cell-load {
+  position: relative;
+  //overflow: hidden;
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    background: $color-primary;
+    //width: 100%;
+    //right: -1px;
+    //transform: translateX(100%);
+
+    // OBS!! Calc in the translate does apparently not work in IE
+    //transform: translateX(calc(100% + 1px)); // a small line of the load overlay can be visible sometimes if transform is 100%.
+
+
+    width: 0%;
+    right: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.lazy-image {
+  //overflow: hidden;
+
+  &__image {
+    visibility: hidden;
+  }
+
+  &--loaded {
+    .lazy-image__image {
+      visibility: visible;
+    }
+  }
+}

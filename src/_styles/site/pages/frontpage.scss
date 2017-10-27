@@ -1,0 +1,24 @@
+.frontpage {
+  &__splash {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    background: white;
+    overflow: hidden;
+
+    * {
+      margin: 0;
+    }
+
+    .logo {
+      position: absolute;
+      bottom: $grid-padding;
+      left: 2 * $grid-padding;
+    }
+  }
+
+  .frontpage__splash-inner {
+    width: 100vw;
+  }
+}

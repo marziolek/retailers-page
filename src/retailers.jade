@@ -1,0 +1,165 @@
+extends _layouts/base
+
+block variables
+    - var page_class = 'primary-theme'
+    - var page_title = 'retailers'
+
+block content
+    .l-page-container.retailers-page(data-component="retailers")
+      .gl-bot.gl-bot--pull-left.l-row
+        .l-col-pad
+          .retailers-page__contact-info
+            h3.header-small Internationally, d line is based on the distribution of products by select customers in each of the following regions; Nordic & Eastern Europe, Central and Western Europe, the Middle East and Africa, Asia-Pacific, United Kingdom and the Americas.
+            .retailers-page__result
+              h4.header-small.l-col-pad
+                strong d line offices
+              .retailers
+                .retailer.l-col-pad.text
+                  strong d line a/s
+                  .address
+                    p Odensevej 116
+                    p 5700
+                    p Denmark
+                  .contact
+                    p Phone
+                    p ( +45 ) 72 17 01 38
+                  .contact
+                    p Fax
+                    p ( +45 ) 72 17 01 39
+                .retailer.l-col-pad.text
+                  strong Bygma Odense Vest
+                  .address
+                    p Rughøjvej 11
+                    p 5250 Odensen SV
+                    p Denmark
+                  .contact
+                    p Phone
+                    p ( +45 ) 72 17 01 38
+                  a.email.link.link--underline(href="mailto:odensenvest@bygma.com") odensenvest@bygma.com
+
+      .filter.gl-bot.gl-bot--pull-left
+        .filter__base
+          .filter__info
+            h4.header-small
+              strong filter
+            .filter__clear.link clear selection
+          ul.filter__section
+            li.filter__option.filter__top-category(filter-key="americas")
+              .label.link americas
+            li.filter__option.filter__top-category(filter-key="asia-pacific")
+              .label.link asia & pacific
+            li.filter__option.filter__top-category(filter-key="nordic-east-eu")
+              .label.link nordic & east europe
+              .filter__subsection
+                .filter__info
+                  h4.header-small.filter__close
+                    strong back
+                  .filter__clear.link clear selection
+                ul.filter__section
+                  li.filter__option.filter__all.filter__option--selected
+                    .label.link all
+                  li.filter__option(filter-key="czech-republic")
+                    .label.link czech republic
+                  li.filter__option(filter-key="estonia")
+                    .label.link estonia
+                  li.filter__option(filter-key="faroe island")
+                    .label.link faroe island
+                  li.filter__option(filter-key="finland")
+                    .label.link finland
+                  li.filter__option(filter-key="denmark")
+                    .label.link denmark
+                    .filter__subsection
+                      .filter__info
+                        h4.header-small.filter__close
+                          strong back
+                        .filter__clear.link clear selection
+                      ul.filter__section
+                        li.filter__option.filter__all.filter__option--selected
+                          .label.link all
+                        li.filter__option(filter-key="greater copenhagen")
+                          .label.link greater copenhagen
+                        li.filter__option(filter-key="window-handles")
+                          .label.link north zealand
+                        li.filter__option(filter-key="pulls")
+                          .label.link east zealand
+                        li.filter__option(filter-key="panic-exit-devices")
+                          .label.link west & south zealand
+                        li.filter__option(filter-key="door-closers")
+                          .label.link door funen
+                        li.filter__option(filter-key="glass-patches")
+                          .label.link south jutland
+                        li.filter__option(filter-key="doorstops")
+                          .label.link central jutland
+                        li.filter__option(filter-key="roses")
+                          .label.link north jutland
+                        li.filter__option(filter-key="black-plates")
+                          .label.link bornholm
+      .l-row.gl-bot.gl-bot--pull-left
+        script(id="google-maps-api",data-src="https://maps.googleapis.com/maps/api/js?callback=initMap")
+        .retailers-page__gmaps
+
+      .retailers-page__search
+        .l-row.gl-bot.gl-bot--pull-left
+          .retailers-page__results
+            //.retailers-page__result
+              h4.header-small.l-col-pad
+                strong funen
+              .retailers
+                .retailer.l-col-pad.text
+                  strong Jens Schultz A/S
+                  .address
+                    p Odensevej 116
+                    p 5700
+                    p Denmark
+                  .contact
+                    p Phone
+                    p ( +45 ) 72 17 01 38
+                  .contact
+                    p Fax
+                    p ( +45 ) 72 17 01 39
+                .retailer.l-col-pad.text
+                  strong Bygma Odense Vest
+                  .address
+                    p Rughøjvej 11
+                    p 5250 Odensen SV
+                    p Denmark
+                  .contact
+                    p Phone
+                    p ( +45 ) 72 17 01 38
+                  a.email.link(href="mailto:odensenvest@bygma.com") odensenvest@bygma.com
+                .retailer.l-col-pad.text
+                  strong Jens Schultz A/S
+                  .address
+                    p Odensevej 116
+                    p 5700
+                    p Denmark
+                  .contact
+                    p Phone
+                    p ( +45 ) 72 17 01 38
+                  .contact
+                    p Fax
+                    p ( +45 ) 72 17 01 39
+                .retailer.l-col-pad.text
+                  strong Jens Schultz A/S
+                  .address
+                    p Odensevej 116
+                    p 5700
+                    p Denmark
+                  .contact
+                    p Phone
+                    p ( +45 ) 72 17 01 38
+                  .contact
+                    p Fax
+                    p ( +45 ) 72 17 01 39
+                .retailer.l-col-pad.text
+                  strong Jens Schultz A/S
+                  .address
+                    p Odensevej 116
+                    p 5700
+                    p Denmark
+                  .contact
+                    p Phone
+                    p ( +45 ) 72 17 01 38
+                  .contact
+                    p Fax
+                    p ( +45 ) 72 17 01 39

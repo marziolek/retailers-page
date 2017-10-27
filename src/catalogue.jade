@@ -1,0 +1,57 @@
+extends _layouts/base
+
+block variables
+    - var page_title = 'moodboard'
+
+block content
+    .l-page-container.catalogue-page(data-component="catalogue")
+      .catalogue-page__products.gl-bot.gl-bot--pull-left
+        .l-row
+          .product
+            .overlay
+              .delete
+                svg.svg-icon
+                  use(xlink:href="images/assets/SVGSpriteSheet.svg#x")
+                | delete
+            .title-box(href="productdetails.html")
+              img.title-box__image.greyscale-image.greyscale-image--fade-in(src="images/testmedia/products/product01.jpg")
+              .title-box__link.text
+                strong thumb down
+                br
+                strong AJ
+                br
+                span solid, cc 30mm
+
+      .catalogue-page__no-products.gl-bot.gl-bot--pull-left
+        .l-row
+          .l-col-3-lg.l-col-pad
+            .content
+              h3.header-small
+                strong add products to start building your moodboard
+              a.link.header-small(href="products.html") go to products
+          .l-col-lg.gl-left-lg
+      .catalogue-page__request.gl-bot.gl-bot--pull-left
+        .l-row
+          .l-col-3-lg.l-col-pad
+            .content
+              h3.header-small
+                strong get the moodboard by entering your details here
+              form.text
+                .input-group
+                  strong name
+                  input.header-small.input(placeholder="enter your name", type="text")
+                .input-group
+                  strong company
+                  input.header-small.input(placeholder="enter your company name", type="text")
+                .input-group
+                  strong country
+                  input.header-small.input(placeholder="enter your country", type="text")
+                .input-group
+                  strong email
+                  input.header-small.input(placeholder="enter your email", type="email")
+                .controls
+                  button.text.link(type="submit") send brochure
+                  input.checkbox(id="signup",type="checkbox")
+                  label.text(for="signup") sign up for product updates and news
+
+          .l-col-lg.gl-left-lg

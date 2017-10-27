@@ -1,0 +1,28 @@
+.brochure {
+  color: inherit;
+  > * {
+    display: inline-block;
+  }
+  &__count {
+    display: none;
+    margin-left: 5px;
+    color: rgba(0,0,0,0.4);
+  }
+
+  &.blink {
+    animation-name: brochureblink;
+    animation-duration: 0.6s;
+  }
+}
+
+@keyframes brochureblink {
+  0% {
+    color: $grid-line-color;
+  }
+  50% {
+    color: $color-primary;
+  }
+  100% {
+    color: $grid-line-color;
+  }
+}

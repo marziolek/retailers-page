@@ -1,0 +1,143 @@
+extends _layouts/base
+
+block pre-menu-content
+  .frontpage__splash.full-height(data-component="frontpage")
+    .frontpage__splash-inner
+      .logo
+        svg.svg-icon
+          use(xlink:href="images/assets/SVGSpriteSheet.svg#logo")
+  .page-intro.frontpage__intro(data-component="page-intro")
+    .page-intro__inner
+      .l-page-container.page-intro__layout.full-height
+        .gl-top.gl-top--pull-left
+          .page-intro__hero
+            .page-intro__video
+              video(autoplay loop)
+                source(src="images/testmedia/Dline-intro-for-web.mp4" type="video/mp4")
+                | Your browser does not support the video tag.
+        .page-intro__bottom.gl-top.gl-top--pull-left
+
+block content
+  .l-page-container
+    .promo.gl-bot.gl-bot--pull-left
+      .l-row
+        .l-col-3-lg
+          .promo__image.cell-load.dark-img(data-threshold-offset=300)
+            img.greyscale-image.greyscale-image--fade-in(src="images/testmedia/cases/Case-image-color.jpg")
+            .cell-load__overlay
+        .l-col-lg.l-col-pad.promo__info
+          p.text.promo__section-header case
+          a.promo__headline(href="#")
+            h3.header-small
+              strong Grace Farms
+              | Connecticut,
+              | USA
+          a.link.promo__link(href="#") view case
+
+
+    .text-block
+      .l-row
+        .l-col-2.l-col-offset-2.l-col-lg.l-col-offset-0-lg
+            img.text-block__image(src="images/testmedia/labels/label.jpg")
+        .l-col-3-lg.l-col-pad.gl-top.gl-top--pull-left.gl-left-lg
+          .text-block__header
+            .text-block__section-header
+              p.text about
+            h2.header-large
+              strong manufacturing design classics
+              | since 1971
+          .text-block__paragraph
+            a.link.text(href="#") read more
+            p.text
+              | In July 1961 the SAS Royal Hotel opened in Copenhagen as the world’s first design hotel. Now known as the Radisson Blu Royal Hotel, it was the embodiment of Arne Jacobsen’s whole-picture approach to architecture and design.
+              | Jacobsen designed everything within the hotel’s 22 floors – his hand was seen in furniture, carpets, curtains, wine glasses, cutlery, signage and, of course, the timeless lever handles still made by d line. Today, only room 606 remains as it stood in 1961, and it has fully functioned as a guest room until recently.
+              | The AJ lever handle endures too. The original pieces still remains in place in room 606 as well as in several of the bathrooms across the hotel.
+
+    div.gl-bot.gl-bot--pull-left.gl-top.gl-top--pull-left
+      .l-row
+        .l-col-2.l-col-lg
+          a.title-box.title-box--bare(href="#")
+            .title-box__title.header-small
+              strong collections
+            .link.title-box__link all collections
+        .l-col-2.l-col-lg.gl-left
+          a.title-box.lazy-image.cell-load.dark-img(href="products.html")
+            .title-box__title.header-small
+              strong Knud Holscher
+            img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/architects/Knud-Holscher-color.jpg")
+            .cell-load__overlay
+        .l-col-2.l-col-lg.gl-left-lg
+          a.title-box.lazy-image.cell-load.dark-img(href="#")
+            .title-box__title.header-small
+              strong Arne Jacobsen
+            img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/architects/Arne-Jacobsen-color.jpg")
+            .cell-load__overlay
+        .l-col-2.l-col-lg.gl-left
+          a.title-box.lazy-image.cell-load.dark-img(href="#")
+            .title-box__title.header-small
+              strong Bjarke Ingels
+            img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/architects/Bjarke-Ingels-color.jpg")
+            .cell-load__overlay
+
+    .article-overview
+      .l-row
+        .l-col-2-lg.l-col-pad.article-overview__title.gl-bot-sm.gl-bot--pull-left
+            .article-overview__text.header-large news
+            a(href="#").link.article-overview__link all news
+          .hr-sm
+
+        .l-col-2.l-col-lg.gl-left-lg.news-box
+            .news-box__date.text february 9, 2017
+            a(href="#")
+              h3.news-box__title.header-small
+                | 100 ton of Danish Design will be installed in Oslo!
+            p.news-box__text.text Phasellus fringilla lacinia tortor ut auctor. Praesent vel faucibus quam, at convallis odio.
+            a(href="#").link.news-box__link read more
+
+        .l-col-2.l-col-lg.gl-left.news-box
+            .news-box__date.text february 9, 2017
+            a(href="#")
+              h3.news-box__title.header-small
+                | Knud Holscher Exhibition
+                br
+                | opening on January 29!
+            p.news-box__text.text Phasellus fringilla lacinia tortor ut auctor. Praesent vel faucibus quam, at convallis odio. Mauris arcu tortor, sagittis vel nisi condimentum.
+            a(href="#").link.news-box__link read more
+
+    div.gl-bot.gl-bot--pull-left.gl-top.gl-top--pull-left
+      .l-row
+        .l-col-2.l-col-lg.gl-right
+          a.title-box.lazy-image.cell-load.dark-img(href="#")
+            .title-box__title.header-small
+              strong Grace Farms
+              | Connecticut,
+              br
+              | USA
+            img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Grace-Farms-Connecticut-USA-color.jpg")
+            .title-box__link.text view case
+            .cell-load__overlay
+        .l-col-2.l-col-lg.gl-right
+          a.title-box.lazy-image.cell-load.dark-img(href="#")
+            .title-box__title.header-small
+              strong VIA West 57
+              | New York,
+              br
+              | USA
+            img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Via-West-New-York-USA-color.jpg")
+            .title-box__link.text view case
+            .cell-load__overlay
+        .l-col-2.l-col-lg
+          a.title-box.lazy-image.cell-load.dark-img(href="#")
+            .title-box__title.header-small
+              strong SAS Hotel
+              | Copenhagen
+              br
+              | Denmark
+            img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/SAS-Hotel-Copenhagen-Denmark-color.jpg")
+            .title-box__link.text view case
+            .cell-load__overlay
+        .l-col-2.l-col-lg.gl-left
+          a.title-box.title-box--bare(href="#")
+            .title-box__title.header-small
+              strong cases
+            .link.title-box__link all cases

@@ -1,0 +1,44 @@
+.news-box {
+  padding: 10 * $grid-padding $grid-padding;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+
+  @media (min-width: $bp-large) {
+    padding: 6.25 * $grid-padding $grid-padding;
+  }
+
+  &__date{
+    top:$grid-padding;
+    left:$grid-padding;
+    position: absolute;
+  }
+
+  &__title{
+    margin-bottom: 6 * $grid-padding;
+    font-weight: bold;
+    height: 4.2em;
+
+    @media (min-width: $bp-large) {
+      margin-bottom: 1.5 * $grid-padding;
+    }
+  }
+
+  &__text{
+
+
+    @media (min-width: $bp-large) {
+      width: 90%;
+    }
+  }
+
+  &__link{
+    position: absolute;
+    bottom: $grid-padding;
+    left: $grid-padding;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

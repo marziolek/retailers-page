@@ -1,0 +1,77 @@
+.page-slider {
+  position: relative;
+
+  &__slide {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__captions {
+    position: absolute;
+    bottom: -0.5 * $grid-padding;
+    transform: translateY(100%);
+    right: 0.5 * $grid-padding;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+
+    li {
+      display: none;
+
+      &.active {
+        display: block;
+      }
+    }
+
+    .arrow {
+      width: 19px;
+      height: 14px;
+      stroke: $color-grey-2;
+      margin-left: 5px;
+    }
+  }
+
+  &__indicators {
+    position: absolute;
+    bottom: $grid-padding;
+    right: calc(#{$grid-padding} - 5px);
+    display: flex;
+
+    > * {
+      position: relative;
+      cursor: pointer;
+      width: 11px;
+      height: 20px;
+      margin-left: 5px;
+
+      @media (min-width: $bp-large) {
+        height: $grid-padding;
+        margin-left: 10px;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 5px;
+        height: 100%;
+        width: 1px;
+        background: #bbb;
+      }
+
+      &.active {
+        &:after {
+          background: white;
+        }
+      }
+    }
+  }
+}

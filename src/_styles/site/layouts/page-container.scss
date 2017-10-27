@@ -1,0 +1,12 @@
+.l-page-container {
+  //margin-left: $grid-padding-mobile;
+  //margin-right: $grid-padding-mobile;
+
+  //@media (min-width: $bp-large) {
+    margin-left: $grid-padding;
+    margin-right: $grid-padding;
+  //}
+
+  @extend .gl-left;
+  @extend .gl-right;
+}

@@ -1,0 +1,88 @@
+.promo {
+  &__image {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-bottom: 100%;
+
+    @media (min-width: $bp-large) {
+      padding-bottom: 62.5%;
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+
+      .objectfit & {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  &__headline {
+    text-decoration: none;
+  }
+
+  &__caption {
+    display: flex;
+    position: absolute;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    text-align: left;
+
+    @media (min-width: $bp-large) {
+      bottom: 0;
+      left: 0;
+      padding-top: 0.5 * $grid-padding;
+      transform-origin: top left;
+      transform: rotate(-90deg);
+    }
+
+    .svg-icon {
+      width: 19px;
+      height: 14px;
+      stroke: $color-grey-2;
+      margin-left: 5px;
+    }
+  }
+
+  &__info {
+    width: 100%;
+    position: relative;
+    padding-bottom: 30%;
+
+    @media (min-width: $bp-large) {
+      padding-bottom: 0;
+    }
+
+    padding-top: $grid-padding;
+
+    @media (min-width: $bp-large) {
+      padding-top: 0.75 * $grid-padding;
+    }
+    @media (min-width: $bp-xxlarge) {
+      padding-top: 0.85 * $grid-padding;
+    }
+  }
+
+  &__section-header {
+
+    @media (min-width: $bp-large) {
+      margin-bottom: 0.65 * $grid-padding;
+    }
+    @media (min-width: $bp-xxlarge) {
+      margin-bottom: 0.75 * $grid-padding;
+    }
+  }
+
+  &__link {
+    position: absolute;
+    left: $grid-padding;
+    bottom: $grid-padding;
+  }
+}

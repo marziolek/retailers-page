@@ -1,0 +1,303 @@
+extends _layouts/base
+
+block variables
+    - var page_class = 'grey-theme'
+    - var page_title = 'products'
+
+
+block content
+  .l-page-container.products-overview(data-component="products-overview")
+    .filter.gl-bot.gl-bot--pull-left
+      .products-overview__grid-toggle
+        div(grid="small")
+          svg.svg-icon
+            use(xlink:href="images/assets/SVGSpriteSheet.svg#grid-small")
+        div(grid="large")
+          svg.svg-icon
+            use(xlink:href="images/assets/SVGSpriteSheet.svg#grid-large")
+      .filter__base
+        .filter__info
+          h4.header-small
+            strong filter
+          .filter__clear.link clear selection
+        ul.filter__section
+          li.filter__option.filter__top-category(filter-key="collection")
+            .label.link collection
+          li.filter__option.filter__top-category(filter-key="material")
+            .label.link material
+          li.filter__option.filter__top-category(filter-key="product-category")
+            .label.link product category
+            .filter__subsection
+              .filter__info
+                h4.header-small.filter__close
+                  strong back
+                .filter__clear.link clear selection
+              ul.filter__section
+                li.filter__option.filter__all.filter__option--selected
+                  .label.link all
+                li.filter__option(filter-key="sanitary")
+                  .label.link sanitary
+                  .filter__subsection
+                    .filter__info
+                      h4.header-small.filter__close
+                        strong back
+                      .filter__clear.link clear selection
+                    ul.filter__section
+                      li.filter__option.filter__all.filter__option--selected
+                        .label.link all
+                      li.filter__option(filter-key="lever-handles")
+                        .label.link lever handles
+                      li.filter__option(filter-key="window-handles")
+                        .label.link window handles
+                li.filter__option(filter-key="hardware")
+                  .label.link hardware
+                  .filter__subsection
+                    .filter__info
+                      h4.header-small.filter__close
+                        strong back
+                      .filter__clear.link clear selection
+                    ul.filter__section
+                      li.filter__option.filter__all.filter__option--selected
+                        .label.link all
+                      li.filter__option(filter-key="lever-handles")
+                        .label.link lever handles
+                      li.filter__option(filter-key="window-handles")
+                        .label.link window handles
+                      li.filter__option(filter-key="pulls")
+                        .label.link pulls
+                      li.filter__option(filter-key="panic-exit-devices")
+                        .label.link panic exit devices
+                      li.filter__option(filter-key="door-closers")
+                        .label.link door closers
+                      li.filter__option(filter-key="glass-patches")
+                        .label.link glass patches
+                      li.filter__option(filter-key="doorstops")
+                        .label.link doorstops
+                      li.filter__option(filter-key="roses")
+                        .label.link roses
+                      li.filter__option(filter-key="black-plates")
+                        .label.link black plates
+                      li.filter__option(filter-key="accessories")
+                        .label.link accessories
+
+    ul.pagination.gl-bot.gl-bot--pull-left
+      li.pagination__prev.hidden
+          span.header-small(pagination-prev)
+            strong prev
+          span.pagination__paging.text
+            span.pagination__paging-current 1-12
+            span.pagination__paging-count ( 31 )
+      li.pagination__item
+        a.title-box.title-box--grey.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product01.jpg")
+          .title-box__link.text
+            strong thumb down - 1
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product02.jpg")
+          .title-box__link.text
+            strong thumb down - 2
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product03.jpg")
+          .title-box__link.text
+            strong thumb down - 3
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product04.jpg")
+          .title-box__link.text
+            strong thumb down - 4
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product06.jpg")
+          .title-box__link.text
+            strong thumb down - 5
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product01.jpg")
+          .title-box__link.text
+            strong thumb down - 6
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product02.jpg")
+          .title-box__link.text
+            strong thumb down - 7
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item.test
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product03.jpg")
+          .title-box__link.text
+            strong thumb down - 8
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product04.jpg")
+          .title-box__link.text
+            strong thumb down - 9
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product05.jpg")
+          .title-box__link.text
+            strong thumb down - 10
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product06.jpg")
+          .title-box__link.text
+            strong thumb down - 11
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product01.jpg")
+          .title-box__link.text
+            strong thumb down - 12
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product02.jpg")
+          .title-box__link.text
+            strong thumb down - 13
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product03.jpg")
+          .title-box__link.text
+            strong thumb down - 14
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product04.jpg")
+          .title-box__link.text
+            strong thumb down - 15
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product06.jpg")
+          .title-box__link.text
+            strong thumb down - 16
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product01.jpg")
+          .title-box__link.text
+            strong thumb down - 17
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product02.jpg")
+          .title-box__link.text
+            strong thumb down - 18
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product03.jpg")
+          .title-box__link.text
+            strong thumb down - 19
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product04.jpg")
+          .title-box__link.text
+            strong thumb down - 20
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product05.jpg")
+          .title-box__link.text
+            strong thumb down - 21
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product05.jpg")
+          .title-box__link.text
+            strong thumb down - 22
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__item
+        a.title-box.title-box--grey(href="productdetails.html")
+          img.title-box__image.greyscale-image(src="images/testmedia/products/product06.jpg")
+          .title-box__link.text
+            strong thumb down - 23
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+      li.pagination__next
+        .pagination__next-content
+          span.pagination__paging
+            span.pagination__paging-current 1-23
+            span.pagination__paging-count ( 59 )
+          span.header-small(pagination-next)
+            strong next

@@ -1,0 +1,11 @@
+.greyscale-image {
+  filter: grayscale(100);
+
+  &--fade-in {
+    transition: filter 0.3s linear;
+
+    &:hover{
+      filter: grayscale(0);
+    }
+  }
+}

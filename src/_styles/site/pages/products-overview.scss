@@ -1,0 +1,28 @@
+.products-overview {
+  &__grid-toggle {
+    display: none;
+
+    @media (min-width: $bp-xlarge) {
+      position: absolute;
+      top: $grid-padding;
+      right: $grid-padding;
+      display: flex;
+
+
+      > * {
+        width: 28px;
+        height: 28px;
+        color: $color-grey-2;
+        cursor: pointer;
+
+        &:first-child {
+          margin-right: 20px;
+        }
+
+        &.selected {
+          color: black;
+        }
+      }
+    }
+  }
+}

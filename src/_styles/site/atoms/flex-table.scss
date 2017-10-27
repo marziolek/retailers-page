@@ -1,0 +1,35 @@
+.flex-table {
+  &__row {
+    padding: 0.5 * $grid-padding 0;
+    display: flex;
+    align-items: flex-end;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid black;
+    }
+  }
+
+  &__col {
+    width: 60%;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    &--2 {
+      width: 40%;
+      display: flex;
+      flex-wrap: wrap;
+
+      @media (min-width: $bp-medium) {
+        width: 66%;
+      }
+
+      > * {
+        width: 100%;
+
+        @media (min-width: $bp-medium) {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

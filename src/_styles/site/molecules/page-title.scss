@@ -1,0 +1,18 @@
+.page-title {
+  overflow-y: hidden;
+  line-height: 1;//0.7;
+  padding-bottom: 1.4vw;
+  width: 100%;
+  position: absolute;
+  bottom: -0.12em;//- 0.9 * $grid-padding;
+  left: 0.7 * $grid-padding;
+  z-index: 10;
+  color: $color-grey;
+
+  .grey-theme & {
+    color: white;
+  }
+  .primary-theme & {
+    color: white;
+  }
+}

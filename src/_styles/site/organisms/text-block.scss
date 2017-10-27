@@ -1,0 +1,77 @@
+.text-block {
+
+  &__header {
+    position: relative;
+    margin-bottom: 6 * $grid-padding;
+    padding-top: 12 * $grid-padding;
+
+    @media (min-width: $bp-large) {
+      width: 70%;
+      padding-top: 6 * $grid-padding;
+      margin-bottom: 3 * $grid-padding;
+    }
+  }
+
+  &__section-header {
+    position: absolute;
+    top: $grid-padding;
+    left: 0;
+  }
+
+  &__paragraph {
+    padding-left: 6 * $grid-padding;
+    padding-right: 2 * $grid-padding;
+    padding-bottom: 10 * $grid-padding;
+    position: relative;
+
+    @media (min-width: $bp-large) {
+      padding-left: 12 * $grid-padding;
+      padding-right: 4.5 * $grid-padding;
+      padding-bottom: 5 * $grid-padding;
+    }
+
+    .link {
+      position: absolute;
+      bottom: $grid-padding;
+      left: 0;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    display: block;
+    height: auto;
+    border-left: 1px solid $grid-line-color;
+    padding: 25%;
+    box-sizing: border-box;
+
+    @media (min-width: $bp-large) {
+      padding: 0;
+      margin-left: auto;
+      width: 50%;
+      margin-right: auto;
+      margin-top: 6 * $grid-padding;
+      border: none;
+    }
+  }
+
+  &__read-more {
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+
+    @media (min-width: $bp-large) {
+      position: relative !important;
+    }
+
+    a {
+      position: absolute;
+      bottom: $grid-padding;
+      left: $grid-padding;
+    }
+  }
+
+  > .l-row {
+    position: relative;
+  }
+}

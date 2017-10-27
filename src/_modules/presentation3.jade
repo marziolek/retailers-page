@@ -1,0 +1,39 @@
+mixin presentation3()
+  .presentation.presentation--3
+    .presentation__featured
+      .presentation__item
+        .presentation__caption
+          p this is image caption
+          svg.svg-icon
+            use(xlink:href="images/assets/SVGSpriteSheet.svg#arrow")
+        .grid-item.presentation__img.lazy-image.cell-load
+          img.lazy-image__image(data-src="images/testmedia/case-details/Cluster-image-large.jpg")
+          .cell-load__overlay
+
+    .presentation__grid.gl-left-lg
+      .grid-item
+        .presentation__item
+          .presentation__caption
+            p this is image caption with longer text
+            svg.svg-icon
+              use(xlink:href="images/assets/SVGSpriteSheet.svg#arrow")
+          .presentation__img.lazy-image.cell-load
+            img.lazy-image__image(data-src="images/testmedia/case-details/Cluster-image-small-01.jpg")
+            .cell-load__overlay
+      .grid-item
+        .presentation__item
+          .presentation__caption
+            p this is image caption with longer text
+            svg.svg-icon
+              use(xlink:href="images/assets/SVGSpriteSheet.svg#arrow")
+          .presentation__label
+            img(src="images/testmedia/labels/label.jpg")
+      .grid-item
+        .presentation__item
+          .presentation__caption
+            p this is image caption with longer text
+            svg.svg-icon
+              use(xlink:href="images/assets/SVGSpriteSheet.svg#arrow")
+          .presentation__img.lazy-image.cell-load
+            img.lazy-image__image(data-src="images/testmedia/case-details/Cluster-image-small-02.jpg")
+            .cell-load__overlay

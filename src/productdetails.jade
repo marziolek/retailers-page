@@ -1,0 +1,188 @@
+extends _layouts/base
+
+block variables
+    - var page_class = 'grey-theme product-details'
+    - var page_title = '#14021602010'
+
+block content
+  .l-page-container(data-component="product-details")
+    .promo.gl-bot.gl-bot--pull-left.l-row
+      .l-col-3-lg
+          .page-slider(data-component="page-slider")
+            .cell-load
+              .page-slider__slides.promo__image
+                .page-slider__slide
+                  img(src="images/testmedia/cases/Case-image-color.jpg")
+                .page-slider__slide
+                  img(src="images/testmedia/cases/Case-image-BW.jpg")
+              .cell-load__overlay
+            ul.page-slider__indicators
+              li
+              li
+      .l-col-4.l-col-lg
+        .scroll-sticker(data-js="product-details-sticker")
+          .product-details__tools
+            p.tools__section-header.text
+              strong collection
+              a.link.link--underline.tools__link(href="#") Knud Holscher d line
+            h3.header-small
+              strong Lever Handle
+              | 19FFG, Pair,
+              | 8x8mm
+
+            .custom-select.text
+              .custom-select__label
+                strong.title material
+                span.current-selection
+                  .label Satin Stainless Steel with very very long text - 1
+                  svg.svg-icon
+                    use(xlink:href="images/assets/SVGSpriteSheet.svg#arrow")
+              .custom-select__content
+                ul.custom-select__inner
+                  li(value="Satin-Stainless-Steel-1") Satin Stainless Steel with very very long text - 1
+                  li(value="Satin-Stainless-Steel-2") Satin Stainless Steel - 2
+                  li(value="Satin-Stainless-Steel-3") Satin Stainless Steel - 3
+                  li(value="Satin-Stainless-Steel-4") Satin Stainless Steel - 4
+
+            .custom-select.text
+              .custom-select__label
+                strong.title material
+                span.current-selection
+                  .label Satin Stainless Steel - 1
+                  svg.svg-icon
+                    use(xlink:href="images/assets/SVGSpriteSheet.svg#arrow")
+              .custom-select__content
+                ul.custom-select__inner
+                  li(value="Satin-Stainless-Steel-1") Satin Stainless Steel - 1
+                  li(value="Satin-Stainless-Steel-2") Satin Stainless Steel - 2
+                  li(value="Satin-Stainless-Steel-3") Satin Stainless Steel - 3
+                  li(value="Satin-Stainless-Steel-4") Satin Stainless Steel - 4
+
+            .custom-select.text
+              .custom-select__label
+                strong.title material
+                span.current-selection
+                  .label Satin Stainless Steel - 1
+                  svg.svg-icon
+                    use(xlink:href="images/assets/SVGSpriteSheet.svg#arrow")
+              .custom-select__content
+                ul.custom-select__inner
+                  li(value="Satin-Stainless-Steel-1") Satin Stainless Steel - 1
+                  li(value="Satin-Stainless-Steel-2") Satin Stainless Steel - 2
+                  li(value="Satin-Stainless-Steel-3") Satin Stainless Steel - 3
+                  li(value="Satin-Stainless-Steel-4") Satin Stainless Steel - 4
+
+            a.link.link--underline.tools__link.tools_bot-link.add-to-brochure
+              strong add to moodboard
+
+    .l-row.product-details__description.gl-bot.gl-bot--pull-left
+      .l-col-lg.l-col-pad.meta-data
+        .meta-data__title.text specifications
+        .meta-data__list
+          ul.text
+            li
+              strong price
+              p € 99.00 pr. set.
+            li
+              strong item
+              p #3574687925
+            li
+              strong stock type
+              p made to order
+            li
+              strong brochure
+              p Lever Handle 19FFG, Pair, 8x8mm
+            li
+              strong available at
+              a.link.link--underline(href="#") find nearest retailer
+
+      .article.l-col-2-lg.gl-left-lg.l-col-pad.text.gl-bot-sm.gl-bot--pull-left
+        p.article__section-header product info
+        p.article__manchet Lever handle 19 mm FFG shape, pair, 8x8 mm, snap on cover ball bearing rose cc 30/38 mm, for door thickness 33-59 mm, satin stainless steel AISI 316, Lever supplied with M4 x 75 mm section bolts and fixing bush.
+        .article__rich-text
+          h3 Features
+          ul.list
+            li Cras vehicula vel sem et aliquet. Aliquam aliquam ipsum sed ante auctor venenatis. Suspendisse vehicula fermentum tellus, nec nibh fringilla quis.
+            li Aliquam aliquam in dui non egestas. Sed finibus viverra erat non consectetur. Proin porta enim eu urna varius, sed pretium urna fermentum.
+            li Nullam quam diam, blandit vitae posuere ut, blandit eget enim. Maecenas nec mi odio. Suspendisse venenatis varius est sed pretium. Pellentesque ut diam velit. Vestibulum porttitor mollis efficitur.
+          h3 In the box
+          p Etiam bibendum, tortor vel ultrices vulputate, lacus massa accumsan ex, eu porttitor odio nibh in erat. In hac habitasse platea dictumst. Proin elementum velit vitae justo dapibus semper. Maecenas tempus imperdiet aliquam. Nullam varius eros sed sapien cursus, sit amet vulputate nibh mattis.
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+      .l-col-lg.gl-left-lg
+    .l-row.gl-bot.gl-bot--pull-left.product-details__table
+      .l-col-4.l-col-lg.l-col-pad
+            h4.header-small
+              strong mount with
+      .l-col-4.l-col-3-lg.gl-left-lg.l-col-pad
+        .flex-table
+          .flex-table__row
+            .flex-table__col.flex-table__col--2
+              .flex-table__col
+                a.text.link(href="#") Thumb turn AJ
+              .flex-table__col
+                a.text.link(href="#") Solid, CC 30 MM
+            .flex-table__col
+              a.text.link(href="#") Arne Jacobsen Collection
+          .flex-table__row
+            .flex-table__col.flex-table__col--2
+              .flex-table__col
+                a.text.link(href="#") Thumb turn AJ
+              .flex-table__col
+                a.text.link(href="#") Solid, CC 30 MM
+            .flex-table__col
+              a.text.link(href="#") Arne Jacobsen Collection
+          .flex-table__row
+            .flex-table__col.flex-table__col--2
+              .flex-table__col
+                a.text.link(href="#") Thumb turn AJ
+              .flex-table__col
+                a.text.link(href="#") Solid, CC 30 MM
+            .flex-table__col
+              a.text.link(href="#") Arne Jacobsen Collection
+          .flex-table__row
+            .flex-table__col.flex-table__col--2
+              .flex-table__col
+                a.text.link(href="#") Thumb turn AJ
+              .flex-table__col
+                a.text.link(href="#") Solid, CC 30 MM
+            .flex-table__col
+              a.text.link(href="#") Arne Jacobsen Collection
+
+
+    .product-details__related
+      .l-row.gl-bot.gl-bot--pull-left
+        .l-col-2.l-col-lg
+          a.title-box.title-box--bare(href="#")
+            .title-box__title.header-small
+              strong cases
+            .link.title-box__link(href="/") all cases
+        .l-col-2.l-col-lg.gl-left
+          a.title-box.lazy-image.cell-load(href="#")
+            .title-box__title.header-small
+              strong Grace Farms
+              | Connecticut,
+              br
+              | USA
+            img.lazy-image__image.title-box__image.greyscale-image(data-src="images/testmedia/cases/Grace-Farms-Connecticut-USA-BW.jpg")
+            .title-box__link.text view case
+            .cell-load__overlay
+        .l-col-2.l-col-lg.gl-left
+          a.title-box.lazy-image.cell-load(href="#")
+            .title-box__title.header-small
+              strong VIA West 57
+              | New York,
+              br
+              | USA
+            img.lazy-image__image.title-box__image.greyscale-image(data-src="images/testmedia/cases/Via-West-New-York-USA-BW.jpg")
+            .title-box__link.text view case
+            .cell-load__overlay
+        .l-col-2.l-col-lg.gl-left
+          a.title-box.lazy-image.cell-load(href="#")
+            .title-box__title.header-small
+              strong Grace Farms
+              | Connecticut,
+              br
+              | USA
+            img.lazy-image__image.title-box__image.greyscale-image(data-src="images/testmedia/cases/Grace-Farms-Connecticut-USA-BW.jpg")
+            .title-box__link.text view case
+            .cell-load__overlay

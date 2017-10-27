@@ -1,0 +1,23 @@
+.article-overview {
+  &__title {
+    position: relative;
+    padding-top: 8 * $grid-padding;
+    padding-bottom: 8 * $grid-padding;
+
+    @media (min-width: $bp-large) {
+      padding-top: 5.5 * $grid-padding;
+      padding-bottom: 0;
+      box-sizing: border-box;
+    }
+  }
+
+  &__text {
+    line-height: 1;
+    font-weight: bold;
+  }
+
+  &__link {
+    position: absolute;
+    bottom: $grid-padding;
+  }
+}

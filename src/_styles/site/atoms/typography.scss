@@ -1,0 +1,77 @@
+* {
+  font-family: 'Neue Haas Grotesk Disp', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.text {
+  line-height: 1.4;
+  font-size: 13px;
+  letter-spacing: 0.01 * 12px;
+
+  @media (min-width: $bp-small) {
+    font-size: 15px;
+    letter-spacing: 0.01 * 15px;
+  }
+  @media (min-width: $bp-medium) {
+    font-size: 14px;
+    letter-spacing: 0.01 * 14px;
+  }
+  @media (min-width: $bp-large) {
+    font-size: 15px;
+    letter-spacing: 0.01 * 15px;
+  }
+  @media (min-width: $bp-xlarge) {
+    font-size: 18px;
+    letter-spacing: 0.01 * 18px;
+  }
+  @media (min-width: $bp-xxlarge) {
+    font-size: 20px;
+    letter-spacing: 0.01 * 20px;
+  }
+}
+
+.header {
+  margin: 0;
+  font-weight: normal;
+
+  > * {
+    display: block;
+  }
+
+  &-xlarge {
+    @extend .header;
+    font-weight: bold;
+    font-size: 10.625vw;
+    letter-spacing: -0.035 * 6vw;
+    line-height: 1.06;
+
+    @media (min-width: $bp-large) {
+      font-size: 13.6vw;
+    }
+  }
+  &-large {
+    @extend .header;
+    font-size: 10.625vw;
+    letter-spacing: -0.025 * 6vw;
+
+    line-height: 1.06;
+
+    @media (min-width: $bp-large) {
+      font-size: 6vw;
+    }
+  }
+  &-medium {
+    @extend .header;
+
+  }
+  &-small {
+    @extend .header;
+    font-size: 5.9vw;
+    line-height: 1.08;
+    letter-spacing: -0.015 * 2.5vw;
+
+    @media (min-width: $bp-large) {
+      font-size: 2.8vw;
+    }
+  }
+}

@@ -1,0 +1,146 @@
+.pagination {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  &--pull-right {
+    justify-content: flex-end;
+  }
+
+
+  > * {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 50%;
+    position: relative;
+
+    @media (min-width: $bp-large) {
+      width: 25%;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 1px;
+      top: 0;
+      left: 0;
+      background: $grid-line-color;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: $grid-line-color;
+    }
+
+    &.no-top-border {
+      &:after {
+        display: none;
+      }
+    }
+
+    &:nth-child(2n) {
+      &:before {
+        display: none;
+        @media (min-width: $bp-large) {
+          display: block;
+        }
+      }
+    }
+
+    &:nth-child(4n - 2) {
+      &:before {
+        @media (min-width: $bp-large) {
+          display: none;;
+        }
+      }
+    }
+  }
+
+  &__prev {
+    display: flex;
+    justify-content: space-between;
+    padding: $grid-padding;
+    box-sizing: border-box;
+    order: 0;
+
+    .header-small {
+      cursor: pointer;
+    }
+
+    &.hidden {
+      display: none;
+    }
+  }
+
+  &__next {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    order: 2;
+
+    &.no-left-border:not(.hidden) {
+      &:before {
+        display: none;
+      }
+    }
+
+    &.hidden {
+      .pagination__next-content {
+        display: none;
+      }
+    }
+  }
+
+  &__next-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: $grid-padding;
+    position: relative;
+
+    .header-small {
+      cursor: pointer;
+    }
+  }
+
+  &__item {
+    order: 1;
+  }
+
+  &__paging-count {
+    margin-left: 5px;
+    color: rgba(0,0,0,0.25)
+  }
+
+  &--small {
+    > * {
+      @media (min-width: $bp-large) {
+        width: 16.6666666%;
+      }
+
+      &:nth-child(4n - 2) {
+        &:before {
+          @media (min-width: $bp-xlarge) {
+            display: block;
+          }
+        }
+      }
+
+      &:nth-child(6n - 4) {
+        &:before {
+          @media (min-width: $bp-xlarge) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

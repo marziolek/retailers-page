@@ -1,0 +1,10 @@
+.logo {
+  display: block;
+  width: 13.7vw;
+  height: 6vw;
+
+  @media (min-width: $bp-large) {
+    width: 5.7vw;
+    height: 2vw;
+  }
+}

@@ -1,0 +1,215 @@
+
+include ./globalFooter
+
+mixin globalMenu(page_title)
+  - page_title || ''
+
+  .global-menu(data-component="global-menu")
+    .global-menu__bar.l-row.text
+      .l-col.l-col-pad.logo-container
+        a.logo(href="index.html")
+          svg.svg-icon
+            use(xlink:href="images/assets/SVGSpriteSheet.svg#logo")
+      .l-col-2.l-col-pad
+        .global-menu__keys
+          .global-menu__key(data-nav-item-key="collections")
+            | collections
+          .global-menu__key(data-nav-item-key="cases")
+            | cases
+          a.global-menu__key(href="products.html") products
+          .global-menu__key(data-nav-item-key="commitment")
+            | commitment
+          .page-intro-toggle
+      .l-col.l-col-pad
+        .global-menu__tools
+          a.brochure(href="catalogue.html", data-component="brochure")
+            p moodboard
+            span.brochure__count ( 0 )
+          p(data-search-toggle) search
+        .global-menu__mobile-toggle
+          .burger
+            .burger__line__top.burger-line
+            .burger__line__middle.burger-line
+            .burger__line__bottom.burger-line
+    .global-menu__curtain
+      .l-page-container.l-row
+        .l-col-3
+          .page-title.header-xlarge
+            != page_title
+        .l-col.gl-left-lg
+          .global-menu__sizer
+
+    .global-menu__backdrop
+        .l-page-container.l-row
+          .l-col-2.l-col-offset-1.gl-left-lg
+          .l-col.global-menu__backdrop-spacer.gl-left-lg
+        .global-menu__backdrop-content.gl-top
+          .global-menu__nav
+            .global-menu__nav-items.l-page-container
+              .global-menu__nav-item(data-nav-item-key="collections")
+                strong.sub-nav-toggle(data-sub-nav-toggle) collections
+                .global-menu__sub-nav
+                  .l-row.global-menu__sub-nav-inner
+                    div.l-col-2
+                      a.global-menu__sub-nav-item.title-box.title-box--animated(href="/")
+                       .title-box__title.header-small
+                        strong all collections
+                       .title-box__link.text view case
+                    div.l-col-2
+                      a.global-menu__sub-nav-item.title-box.title-box--animated(href="news.html")
+                       .title-box__title.header-small
+                        strong Knud Holscher
+                       .title-box__link.text view case
+                       img.title-box__image.greyscale-image(src="images/testmedia/architects/Knud-Holscher-BW.jpg")
+                    div.l-col-2
+                      a.global-menu__sub-nav-item.title-box.title-box--animated(href="/")
+                       .title-box__title.header-small
+                        strong Arne Jacobsen
+                       .title-box__link.text view case
+                       img.title-box__image.greyscale-image(src="images/testmedia/architects/Arne-Jacobsen-BW.jpg")
+                    div.l-col-2
+                     a.global-menu__sub-nav-item.title-box.title-box--animated(href="/gridPage.html")
+                      .title-box__title.header-small
+                       strong Bjarke Ingels
+                      .title-box__link.text view case
+                      img.title-box__image.greyscale-image(src="images/testmedia/architects/Bjarke-Ingels-BW.jpg")
+                    div.l-col-2
+                      a.global-menu__sub-nav-item.title-box.title-box--animated(href="/")
+                       .title-box__title.header-small
+                        strong Arne Jacobsen
+                       .title-box__link.text view case
+                       img.title-box__image.greyscale-image(src="images/testmedia/architects/Arne-Jacobsen-BW.jpg")
+              .global-menu__nav-item(data-nav-item-key="cases")
+                strong.sub-nav-toggle(data-sub-nav-toggle) cases
+                .global-menu__sub-nav
+                  .l-row.global-menu__sub-nav-inner
+                    div.l-col-2
+                      a.global-menu__sub-nav-item.title-box.title-box--animated(href="/cases.html")
+                       .title-box__title.header-small
+                        strong all cases
+                       .title-box__link.text view case
+               .global-menu__nav-item(data-nav-item-key="commitment")
+                 a.sub-nav-toggle.link(href="products.html")
+                  strong products
+              .global-menu__nav-item(data-nav-item-key="commitment")
+                strong.sub-nav-toggle(data-sub-nav-toggle) commitment
+                .global-menu__sub-nav
+                  .l-row.global-menu__sub-nav-inner
+                    div.l-col-2
+                      a.global-menu__sub-nav-item
+                    div.l-col-2
+                      a.global-menu__sub-nav-item.title-box.title-box--animated(href="/")
+                       .title-box__title.header-small
+                        strong all commitment
+                       .title-box__link.text view case
+                    div.l-col-2
+                      a.global-menu__sub-nav-item.title-box.title-box--animated(href="/")
+                       .title-box__title.header-small
+                        strong all commitment
+                       .title-box__link.text view case
+                    div.l-col-2
+                      a.global-menu__sub-nav-item.title-box.title-box--animated(href="/")
+                       .title-box__title.header-small
+                        strong all commitment
+                       .title-box__link.text view case
+
+            .global-menu__nav-tools.gl-top
+              .l-page-container
+                .nav-tools-inner
+                  a.brochure(href="catalogue.html")
+                    strong moodboard
+                    span.brochure__count ( 0 )
+                  strong(data-search-toggle) search
+          .global-menu__search
+            .search-scroll
+              .global-menu__search-inner
+                .search
+                  .search__top
+                    .l-page-container
+                      .search__close(data-search-close)
+                        svg.svg-icon
+                          use(xlink:href="images/assets/SVGSpriteSheet.svg#x")
+                      input.header-large.input.search__input(placeholder="type to search")
+                      .search__status.text
+                        .results-count
+                        .searching-text
+                          | Searching
+                          span .
+                          span .
+                          span .
+
+
+                  .search__results-container
+                    .l-page-container
+                      .search__results-container-inner
+                        //.search__result.gl-top.gl-top--pull-left.gl-bot.gl-bot--pull-left
+                          .l-row
+                            .l-col.l-col-pad
+                              .text.result-count 2 results
+                            .l-col-3.gl-left
+                              div
+                                a.result-item.header-small(href="/") holscher
+                                a.result-item.header-small(href="/") knud
+                        //.search__result.gl-top.gl-top--pull-left.gl-bot.gl-bot--pull-left
+                          .l-row
+                            .l-col.l-col-pad
+                              .text.result-count 2 results
+                            .l-col-3.gl-left
+                              div
+                                a.result-item.header-small(href="/") holscher
+                                a.result-item.header-small(href="/") knud
+                        //.search__result.gl-top.gl-top--pull-left.gl-bot.gl-bot--pull-left
+                          .l-row
+                            .l-col.l-col-pad
+                              .text.result-count 2 results
+                            .l-col-3.gl-left
+                              div
+                                a.result-item.header-small(href="/") holscher
+                                a.result-item.header-small(href="/") knud
+                        //.search__result.gl-top.gl-top--pull-left.gl-bot.gl-bot--pull-left
+                          .l-row
+                            .l-col.l-col-pad
+                              .text.result-count 2 results
+                            .l-col-3.gl-left
+                              div
+                                a.result-item.header-small(href="/") holscher
+                                a.result-item.header-small(href="/") knud
+
+
+          .global-menu__shift.l-page-container
+            .shift-slider.l-row
+              .global-menu__shift-prev.shift-slider__prev
+                svg.svg-icon
+                  use(xlink:href="images/assets/SVGSpriteSheet.svg#arrow-left")
+              .global-menu__shift-next.shift-slider__next
+                svg.svg-icon
+                  use(xlink:href="images/assets/SVGSpriteSheet.svg#arrow-right")
+              .l-col.shift-slider__cell.cell-load
+                .shift-slider__cell-content
+                  div.title-box.title-box--animated
+                   .title-box__title
+                   .title-box__link.text view case
+                .cell-load__overlay
+              .l-col.shift-slider__cell.cell-load.gl-left
+                .shift-slider__cell-content
+                  div.title-box.title-box--animated
+                  .title-box__title
+                  .title-box__link.text view case
+                .cell-load__overlay
+              .l-col.shift-slider__cell.cell-load.gl-left
+                .shift-slider__cell-content
+                  div.title-box.title-box--animated
+                  .title-box__title
+                  .title-box__link.text view case
+                .cell-load__overlay
+              .l-col.shift-slider__cell.cell-load.gl-left
+                .shift-slider__cell-content
+                  div.title-box.title-box--animated
+                  .title-box__title
+                  .title-box__link.text view case
+                .cell-load__overlay
+    .global-menu__page.gl-top
+      .global-menu__page-shadow
+      main
+        block content
+      #[+globalFooter()]

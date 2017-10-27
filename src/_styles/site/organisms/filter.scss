@@ -1,0 +1,152 @@
+$filter-fade-transition: opacity 0.25s ease;
+
+.filter {
+  display: flex;
+  position: relative;
+  min-height: 16 * $grid-padding;
+
+  @media (min-width: $bp-large) {
+    min-height: 6 * $grid-padding;
+  }
+
+  &__base {
+    width: 100%;
+    display: flex;
+    position: relative;
+
+    @media (min-width: $bp-large) {
+      width: 50%;
+    }
+
+    .filter__info {
+      width: 50%;
+    }
+
+    .filter__section {
+      width: 50%;
+    }
+  }
+
+  &__clear {
+    display: none;
+  }
+
+  &__info {
+    padding: $grid-padding;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__section {
+    padding: $grid-padding;
+    box-sizing: border-box;
+  }
+
+  &__subsection {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: $filter-fade-transition;
+
+    @media (min-width: $bp-large) {
+      width: 50%;
+      transform: translateX(100%);
+    }
+
+    .filter__section {
+      width: 50%;
+
+      @media (min-width: $bp-large) {
+        width: 100%;
+      }
+    }
+
+    .filter__info {
+      width: 50%;
+
+      @media (min-width: $bp-large) {
+        display: none;
+      }
+    }
+
+    .filter__subsection {
+      width: 100%;
+    }
+  }
+
+  &__option {
+    &:not(:last-child) {
+      margin-bottom: $grid-padding;
+
+      @media (min-width: $bp-large) {
+        margin-bottom: 0.5 * $grid-padding;
+      }
+    }
+
+    .label {
+      transition: $filter-fade-transition;
+      user-select: none;
+    }
+
+    &--selected {
+      > .label {
+        color: $color-primary;
+
+        .primary-theme & {
+          color: black;
+        }
+      }
+    }
+
+    &--open {
+      > .filter__subsection {
+        pointer-events: all;
+        opacity: 1;
+      }
+
+      &.filter__top-category {
+        > .label {
+          color: $color-primary;
+
+          .primary-theme & {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+
+  &__subcount {
+    color: rgba(0,0,0,0.4);
+  }
+
+  &__subsection-info {
+    width: 50%;
+
+    @media (min-width: $bp-large) {
+      display: none;
+    }
+  }
+
+  &--fade-out {
+    > .filter__info, > .filter__section > .filter__option > .label {
+      opacity: 0;
+
+      @media (min-width: $bp-large) {
+        opacity: 1;
+      }
+    }
+  }
+
+  &--filter-set {
+    .filter__clear {
+      display: block;
+    }
+  }
+}

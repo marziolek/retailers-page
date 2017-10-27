@@ -1,0 +1,139 @@
+extends _layouts/base
+
+include _modules/presentation1
+include _modules/presentation2
+include _modules/presentation3
+include _modules/presentation4
+
+block content
+  .l-page-container.case-page
+
+    .hero.gl-bot.gl-bot--pull-left
+      span.header-small.hero__description case
+      h1.hero__headline.header-xlarge
+          strong SAS Royal
+            br
+            | Hotel
+      img.hero__image(src="images/testmedia/case-details/Top-image.jpg")
+
+    .l-row.gl-bot.gl-bot--pull-left.case-page__description
+      .l-col-lg.l-col-pad.meta-data
+        .meta-data__title.text specifications
+        .meta-data__list
+          ul.text
+            li
+              strong architect
+              p Arbe Jacobsen
+            li
+              strong location
+              p Copenhagen, Denmark
+            li
+              strong year
+              p 1961
+            li
+              strong collections
+              p arne jacobsen collection
+            li
+              strong amenities
+              p swimming pool
+              p gym & cinema
+              p playroom
+              p poker room
+              p golf simulator
+              p meeting room
+              p library
+
+      .l-col-3-lg.l-col-pad.text-block.gl-left-lg.gl-bot-sm.gl-bot--pull-left
+        .text-block__header
+          .text-block__section-header.text background
+          h2.header-large
+            strong The world's first
+            | design hotel
+        .text-block__paragraph
+          p.text
+            | In July 1961 the SAS Royal Hotel opened in Copenhagen as the world’s first design hotel. Now known as the Radisson Blu Royal Hotel, it was the embodiment of Arne Jacobsen’s whole-picture approach to architecture and design.
+            | Jacobsen designed everything within the hotel’s 22 floors – his hand was seen in furniture, carpets, curtains, wine glasses, cutlery, signage and, of course, the timeless lever handles still made by d line. Today, only room 606 remains as it stood in 1961, and it has fully functioned as a guest room until recently.
+            | The AJ lever handle endures too. The original pieces still remains in place in room 606 as well as in several of the bathrooms across the hotel.
+
+
+    .l-row.gl-bot.gl-bot--pull-left
+      #[+presentation1()]
+
+    .l-row.gl-bot.gl-bot--pull-left
+      .l-col-4.l-col-3-lg.l-col-offset-1-lg.l-col-pad.text-block.gl-left-lg
+          .text.case-page__paragraph
+            p The glassy horizontal box, topped with an 18-storey vertical one, was a tower of translucence that reflected and blended into the sky around it, somehow merging into its low-rise city home.
+            p Jacobsen designed everything within the hotel’s 22 floors – his hand was seen in furniture, carpets, curtains, wine glasses, cutlery, signage and, of course, the timeless lever handles still made by d line. Today, only room 606 remains as it stood in 1961, and it has fully functioned as a guest room until recently.
+
+
+    .l-row.gl-bot.gl-bot--pull-left
+      #[+presentation2()]
+
+    .l-row.gl-bot.gl-bot--pull-left
+      #[+presentation3()]
+
+    .l-row.gl-bot.gl-bot--pull-left
+      #[+presentation4()]
+
+    .gl-bot.gl-bot--pull-left
+      .page-slider(data-component="page-slider")
+        .cell-load
+          .page-slider__slides.case-page__slide-image
+            .page-slider__slide
+              img(src="images/testmedia/case-details/Bottom-image.jpg")
+            .page-slider__slide
+              img(src="images/testmedia/case-details/Bottom-image.jpg")
+          .cell-load__overlay
+        ul.page-slider__indicators
+          li
+          li
+        div.page-slider__captions
+          ul
+            li Small image caption about the SAS Royal Hotel
+            li Small image caption about the other image
+          .arrow
+            svg.svg-icon
+              use(xlink:href="images/assets/SVGSpriteSheet.svg#arrow")
+
+    .l-row.gl-bot.gl-bot--pull-left
+      .l-col-2.l-col-offset-1.gl-left
+      .l-col.gl-left
+        .square-spacer
+
+    .l-row.gl-bot.gl-bot--pull-left
+      .l-col-2.l-col-lg
+        a.title-box.title-box--bare(href="#")
+          .title-box__title.header-small
+            strong Arne Jacobsen
+            | collection
+          .link.title-box__link see all products
+      .l-col-2.l-col-lg.gl-left
+        a.title-box.lazy-image.cell-load(href="productdetails.html")
+          img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/SAS-Hotel-Copenhagen-Denmark-color.jpg")
+          .title-box__link.text
+            strong thumb down
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+          .cell-load__overlay
+      .l-col-2.l-col-lg.gl-left-lg
+        a.title-box.lazy-image.cell-load(href="productdetails.html")
+          img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/SAS-Hotel-Copenhagen-Denmark-color.jpg")
+          .title-box__link.text
+            strong thumb down
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+          .cell-load__overlay
+      .l-col-2.l-col-lg.gl-left
+        a.title-box.lazy-image.cell-load(href="productdetails.html")
+          img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/SAS-Hotel-Copenhagen-Denmark-color.jpg")
+          .title-box__link.text
+            strong thumb down
+            br
+            strong AJ
+            br
+            span solid, cc 30mm
+          .cell-load__overlay

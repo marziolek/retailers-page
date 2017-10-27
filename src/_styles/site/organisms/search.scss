@@ -1,0 +1,160 @@
+.search {
+  padding-bottom: 60px;
+
+  @media (min-width: $bp-large) {
+    padding-bottom: 0;
+  }
+
+  &__close {
+    position: absolute;
+    top: 2 * $grid-padding;
+    right: 2 * $grid-padding;
+    width: 25px;
+    height: 25px;
+
+    @media (min-width: $bp-large) {
+      top: $grid-padding;
+      right: $grid-padding;
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__top {
+    width: 100%;
+    height: 0;
+    padding-bottom: 66%;
+    position: relative;
+
+    @media (min-width: $bp-large) {
+      padding-bottom: 25%;
+    }
+
+    .l-page-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+    }
+
+  }
+
+  &__status {
+    position: absolute;
+    bottom: $grid-padding;
+    left: $grid-padding;
+
+    .searching-text {
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      span {
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        margin-left: 2px;
+        animation-direction: alternate;
+        animation-fill-mode: both;
+
+        &:nth-child(1) {
+          animation-name: blink-1;
+        }
+        &:nth-child(2) {
+          animation-name: blink-2;
+        }
+        &:nth-child(3) {
+          animation-name: blink-3;
+        }
+      }
+    }
+
+    .results-count {
+      opacity: 1;
+      transition: opacity 0.3s ease;
+    }
+
+    &.searching {
+      .searching-text {
+        opacity: 1;
+      }
+      .results-count {
+        opacity: 0;
+      }
+    }
+  }
+
+  &__input {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: $grid-padding;
+    width: calc(100% - #{2 * $grid-padding});
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  &__results-container {
+    overflow: hidden;
+  }
+
+  &__result {
+
+    &:not(:last-child) {
+      margin-bottom: 4 * $grid-padding;
+    }
+
+    .result-item {
+      font-weight: bold;
+      text-decoration: none;
+      display: block;
+      padding: $grid-padding $grid-padding 2 * $grid-padding;
+      box-sizing: border-box;
+
+      &:not(:first-child) {
+        border-top: 1px solid $grid-line-color;
+      }
+    }
+
+    .result-count {
+      margin-top: $grid-padding;
+    }
+  }
+}
+
+
+@keyframes blink-1 {
+  0% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+}
+@keyframes blink-2 {
+  0% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes blink-3 {
+  0% {
+    opacity: 0;
+  }
+  74% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+}

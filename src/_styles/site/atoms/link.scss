@@ -1,0 +1,33 @@
+.link {
+  @extend .text;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+
+   &:hover {
+     color: $color-primary;
+
+     .primary-theme & {
+       color: black;
+     }
+   }
+
+   &--underline {
+     display: inline-block;
+     position: relative;
+
+     &:after {
+       content: '';
+       position: absolute;
+       width: 100%;
+       height: 1px;
+       left: 0;
+       bottom: 0;
+       background: $grid-line-color;
+
+       .primary-theme & {
+         background: white;
+       }
+     }
+   }
+}

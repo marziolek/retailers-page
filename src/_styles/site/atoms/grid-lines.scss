@@ -1,0 +1,118 @@
+.gl-top {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 1px;
+    width: 100%;
+    background: $grid-line-color;
+  }
+
+  &--pull-left {
+    &:before {
+      width: 100vw;
+      left: -$grid-padding;
+    }
+  }
+
+  &-lg {
+    @media (min-width: $bp-large) {
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        height: 1px;
+        width: 100%;
+        background: $grid-line-color;
+      }
+    }
+  }
+}
+
+.gl-bot {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 1px;
+    width: 100%;
+    background: $grid-line-color;
+  }
+
+  &--pull-left {
+    &:after {
+      width: 100vw !important;
+      left: -$grid-padding !important;
+    }
+  }
+
+  &-sm {
+    @media (max-width: $bp-large - 1) {
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        height: 1px;
+        width: 100%;
+        background: $grid-line-color;
+      }
+    }
+  }
+}
+
+.gl-left {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 1px;
+    background: $grid-line-color;
+  }
+
+  &-lg {
+    @media (min-width: $bp-large) {
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        height: 100%;
+        width: 1px;
+        background: $grid-line-color;
+      }
+    }
+  }
+}
+
+.gl-right {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    height: 100%;
+    width: 1px;
+    background: $grid-line-color;
+  }
+}

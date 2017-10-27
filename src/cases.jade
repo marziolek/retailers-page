@@ -1,0 +1,233 @@
+extends _layouts/base
+
+block variables
+    - var page_title = 'cases'
+
+block content
+  .l-page-container(data-component="cases-overview")
+    .filter.gl-bot.gl-bot--pull-left
+      .filter__base
+        .filter__info
+          h4.header-small
+            strong filter
+          .filter__clear.link clear selection
+        ul.filter__section
+          li.filter__option.filter__top-category(filter-key="collection")
+            .label.link case type
+          li.filter__option.filter__top-category(filter-key="product-category")
+            .label.link location
+            .filter__subsection
+              .filter__info
+                h4.header-small.filter__close
+                  strong back
+                .filter__clear.link clear selection
+              ul.filter__section
+                li.filter__option.filter__all.filter__option--selected
+                  .label.link all
+                li.filter__option(filter-key="sanitary")
+                  .label.link sanitary
+                  .filter__subsection
+                    .filter__info
+                      h4.header-small.filter__close
+                        strong back
+                      .filter__clear.link clear selection
+                    ul.filter__section
+                      li.filter__option.filter__all.filter__option--selected
+                        .label.link all
+                      li.filter__option(filter-key="lever-handles")
+                        .label.link lever handles
+                      li.filter__option(filter-key="window-handles")
+                        .label.link window handles
+
+    .l-fancy-grid.gl-bot.gl-bot--pull-left
+      .l-fancy-grid__row
+        .l-fancy-grid__item.l-fancy-grid__item--featured
+          .l-fancy-grid__content
+            .l-fancy-grid__content-inner
+              a.title-box.title-box--featured.lazy-image.cell-load.dark-img(href="case.html")
+                .title-box__info-header.text
+                  strong Yoshio Taniguchi USA
+                  span Denmark
+                .title-box__title.header-small
+                  strong SAS Hotel
+                  | Copenhagen
+                  br
+                  | Denmark
+                img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/SAS-Hotel-Copenhagen-Denmark-color.jpg")
+                .cell-load__overlay
+        .l-fancy-grid__item
+          .l-fancy-grid__content.l-fancy-grid__content--pull-right
+            a.title-box.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Lundgaard & Tranberg
+                span Denmark
+              .title-box__title.header-small
+                strong Grace Farms
+                | Connecticut,
+                br
+                | USA
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Grace-Farms-Connecticut-USA-color.jpg")
+              .cell-load__overlay
+      .l-fancy-grid__row.gl-top.gl-top--pull-left
+        .l-fancy-grid__item
+          .l-fancy-grid__content
+            a.title-box.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Bjarke Ingels Group
+                span USA
+              .title-box__title.header-small
+                strong VIA West 57
+                | New York,
+                br
+                | USA
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Via-West-New-York-USA-color.jpg")
+              .cell-load__overlay
+        .l-fancy-grid__item
+          .l-fancy-grid__content
+            a.title-box.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Yoshio Taniguchi USA
+                span Denmark
+              .title-box__title.header-small
+                strong SAS Hotel
+                | Copenhagen
+                br
+                | Denmark
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/SAS-Hotel-Copenhagen-Denmark-color.jpg")
+              .cell-load__overlay
+      .l-fancy-grid__row.gl-top.gl-top--pull-left
+        .l-fancy-grid__item
+          .l-fancy-grid__content.l-fancy-grid__content--pull-right.l-fancy-grid__content--pull-down
+            a.title-box.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Lundgaard & Tranberg
+                span Denmark
+              .title-box__title.header-small
+                strong Grace Farms
+                | Connecticut,
+                br
+                | USA
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Grace-Farms-Connecticut-USA-color.jpg")
+              .cell-load__overlay
+
+        .l-fancy-grid__item.l-fancy-grid__item--featured
+          .l-fancy-grid__content
+            a.title-box.title-box--featured.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Bjarke Ingels Group
+                span USA
+              .title-box__title.header-small
+                strong VIA West 57
+                | New York,
+                br
+                | USA
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Via-West-New-York-USA-color.jpg")
+              .cell-load__overlay
+      .l-fancy-grid__row.gl-top.gl-top--pull-left
+        .l-fancy-grid__item
+          .l-fancy-grid__content
+            a.title-box.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Yoshio Taniguchi USA
+                span Denmark
+              .title-box__title.header-small
+                strong SAS Hotel
+                | Copenhagen
+                br
+                | Denmark
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/SAS-Hotel-Copenhagen-Denmark-color.jpg")
+              .cell-load__overlay
+        .l-fancy-grid__item
+          .l-fancy-grid__content
+            a.title-box.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Bjarke Ingels Group
+                span USA
+              .title-box__title.header-small
+                strong VIA West 57
+                | New York,
+                br
+                | USA
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Via-West-New-York-USA-color.jpg")
+              .cell-load__overlay
+      .l-fancy-grid__row.gl-top.gl-top--pull-left
+        .l-fancy-grid__item.l-fancy-grid__item--featured
+          .l-fancy-grid__content
+            a.title-box.title-box--featured.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Lundgaard & Tranberg
+                span Denmark
+              .title-box__title.header-small
+                strong Grace Farms
+                | Connecticut,
+                br
+                | USA
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Grace-Farms-Connecticut-USA-color.jpg")
+              .cell-load__overlay
+        .l-fancy-grid__item
+          .l-fancy-grid__content.l-fancy-grid__content--pull-right
+            a.title-box.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Bjarke Ingels Group
+                span USA
+              .title-box__title.header-small
+                strong VIA West 57
+                | New York,
+                br
+                | USA
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Via-West-New-York-USA-color.jpg")
+              .cell-load__overlay
+      .l-fancy-grid__row.gl-top.gl-top--pull-left
+        .l-fancy-grid__item
+          .l-fancy-grid__content
+            a.title-box.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Bjarke Ingels Group
+                span USA
+              .title-box__title.header-small
+                strong VIA West 57
+                | New York,
+                br
+                | USA
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Via-West-New-York-USA-color.jpg")
+              .cell-load__overlay
+        .l-fancy-grid__item.l-fancy-grid__item--featured
+          .l-fancy-grid__content
+            a.title-box.title-box--featured.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Lundgaard & Tranberg
+                span Denmark
+              .title-box__title.header-small
+                strong Grace Farms
+                | Connecticut,
+                br
+                | USA
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Grace-Farms-Connecticut-USA-color.jpg")
+              .cell-load__overlay
+      .l-fancy-grid__row.gl-top.gl-top--pull-left
+        .l-fancy-grid__item
+          .l-fancy-grid__content.l-fancy-grid__content--pull-right
+            a.title-box.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Bjarke Ingels Group
+                span USA
+              .title-box__title.header-small
+                strong VIA West 57
+                | New York,
+                br
+                | USA
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Via-West-New-York-USA-color.jpg")
+              .cell-load__overlay
+        .l-fancy-grid__item
+          .l-fancy-grid__content.l-fancy-grid__content--pull-right
+            a.title-box.lazy-image.cell-load.dark-img(href="case.html")
+              .title-box__info-header.text
+                strong Bjarke Ingels Group
+                span USA
+              .title-box__title.header-small
+                strong VIA West 57
+                | New York,
+                br
+                | USA
+              img.lazy-image__image.title-box__image.greyscale-image.greyscale-image--fade-in(data-src="images/testmedia/cases/Via-West-New-York-USA-color.jpg")
+              .cell-load__overlay

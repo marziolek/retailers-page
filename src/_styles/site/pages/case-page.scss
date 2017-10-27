@@ -1,0 +1,48 @@
+.case-page {
+  &__paragraph {
+    margin: 12vw 0;
+    padding-right: 2 * $grid-padding;
+    padding-left: 6 * $grid-padding;
+
+    @media (min-width: $bp-large) {
+      margin: 6vw 0;
+      padding-left: 12 * $grid-padding;
+      padding-right: 4.5 * $grid-padding;
+    }
+
+    p {
+      &:not(:last-child) {
+        margin-bottom: $grid-padding;
+      }
+    }
+  }
+
+  &__description {
+    align-items: stretch;
+    .meta-data {
+      order: 1;
+
+      @media (min-width: $bp-large) {
+        order: 0;
+      }
+    }
+    .text-block {
+      order: 0;
+
+      @media (min-width: $bp-large) {
+        order: 1;
+      }
+    }
+  }
+
+  &__slide-image {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-bottom: 62.5%;
+  }
+
+  .meta-data__list {
+    margin-top: 6.2 * $grid-padding;
+  }
+}

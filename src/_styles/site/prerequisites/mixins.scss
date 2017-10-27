@@ -1,0 +1,20 @@
+$mixin-grid-line-opacity: 0.12;
+
+@mixin grid-line-left() {
+  border-left: 1px solid $grid-line-color;//rgba(0,0,0,$mixin-grid-line-opacity);
+}
+@mixin grid-line-right() {
+  border-right: 1px solid $grid-line-color;//rgba(0,0,0,$mixin-grid-line-opacity);
+}
+@mixin grid-line-top() {
+  border-top: 1px solid $grid-line-color;//rgba(0,0,0,$mixin-grid-line-opacity);
+}
+@mixin grid-line-bottom() {
+  border-bottom: 1px solid $grid-line-color;//rgba(0,0,0,$mixin-grid-line-opacity);
+}
+
+/*
+@mixin greyscale-mixin($percent){
+  -webkit-filter: grayscale($percent);
+  filter: grayscale($percent);
+}*/

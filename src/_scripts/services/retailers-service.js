@@ -18,7 +18,7 @@
     This is a mock products service to simulate loading a list of products from the backend.
   */
   var RetailersService = function() {
-
+    var _ = require('lodash');
     var retailersEuropeLocations = require('../../_data/retailers-locations/locations.json');
     // var retailersEuropeLocations = require('../../_data/retailers-locations/new.json');
     var mockData = {
@@ -67,7 +67,6 @@
     this.getRetailerLocations = function(onResponse) {
       setTimeout(function () {
         if (onResponse) {
-          // onResponse(mockData.getRetailerLocations);
           onResponse(retailersEuropeLocations);
         }
       });
@@ -155,6 +154,62 @@
       });
       markup += '</div></div>';
       return [markup]
+    }
+
+    this.prepareFilters = function() {
+      var regions = _.groupBy(retailersEuropeLocations, function(region) { return region.properties.region });
+      var regionsKeys = Object.keys(regions);
+      regionsKeys = regionsKeys.sort();
+      var filterSection = $('#filter__section');
+      var regionsTemplate = '';
+      regionsKeys.forEach( function(region) {
+        regionsTemplate += '<li filter-key="' + region + '" class="filter__option filter__top-category"><div class="label link">' + formatRegion(region) + '</div>';
+        if (regions[region].length) {
+          var countries;
+          countries = _.groupBy(regions[region], function(retailer) { return retailer.properties.country });
+          var countriesKeys = Object.keys(countries);
+          countriesKeys = countriesKeys.sort();
+
+          regionsTemplate += '<div class="filter__subsection"><div class="filter__info"><h4 class="header-small filter__close"><strong>back</strong></h4><div class="filter__clear link">clear selection</div></div>';
+          regionsTemplate += '<ul class="filter__section">';
+          regionsTemplate += '<li class="filter__option filter__all filter__option--selected"><div class="label link">all</div></li>';
+          countriesKeys.forEach( function(country) {
+            regionsTemplate += '<li filter-key="' + country + '" class="filter__option"><div class="label link">' + country + '</div>';
+              regionsTemplate += '<div class="filter__subsection">';
+              regionsTemplate += '<div class="filter__info"><h4 class="header-small filter__close"><strong>back</strong></h4><div class="filter__clear link">clear selection</div></div>';
+              regionsTemplate += '<ul class="filter__section">';
+                countries[country].forEach( function(item) {
+                  regionsTemplate += '<li filter-key="' + item.properties.city + '" class="filter__option"><div class="label link">' + item.properties.city + '</div></li>';
+                })
+              regionsTemplate += '</ul></div></li>';
+            regionsTemplate += '</li>';
+          })
+          regionsTemplate += '</ul>';
+          regionsTemplate += '</div>';
+        }
+        regionsTemplate += '</li>';
+      })
+      filterSection.append(regionsTemplate)
+    }
+
+    var formatRegion = function(region) {
+      switch(region) {
+        case 'nordic-east-eu':
+          return 'nordic &amp; east europe';
+          break;
+        case 'uk-eire':
+          return 'uk &amp; eire';
+          break;
+        case 'middle-east-africa':
+          return 'middle east &amp; africa';
+          break;
+        case 'asia-pacific':
+          return 'asia &amp; pacific';
+          break;
+        default:
+          return region;
+          break;
+      }
     }
   };
 

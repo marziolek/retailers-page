@@ -24,6 +24,9 @@
     var $search = $elem.find('.retailers-page__search');
     var $results = $elem.find('.retailers-page__results');
 
+    // Initialize filters list
+    retailersService.prepareFilters();
+
     // Initialize filter
     var $filter = $elem.find('.filter');
     var filter = new Filter($filter, {
@@ -42,6 +45,7 @@
         });
       }
     });
+
 
     // When the Google Map has been initialized fetch all retailer locations and add them to the map
     var onGoogleMapsInit = function () {

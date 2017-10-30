@@ -33,7 +33,6 @@
       onChange: function (filterSelection) {
         // When the filter changes, fetch matching retailers from the backend.
         retailersService.search(filterSelection, function (data) {
-          console.log(data)
           // add loaded items to DOM
           $results.children().remove();
           $results.append(data.markup);
@@ -50,7 +49,6 @@
     // When the Google Map has been initialized fetch all retailer locations and add them to the map
     var onGoogleMapsInit = function () {
       retailersService.getRetailerLocations(function (locations) {
-        console.log(locations);
         googleMaps.setLocations(locations);
       });
     };

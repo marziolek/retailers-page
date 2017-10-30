@@ -83,7 +83,7 @@
         if (!$.isEmptyObject(region[i])) {
           for (var j in region[i]) {
             if (!$.isEmptyObject(region[i][j])) {
-              filteredSpecific.push(region[i][j])
+              filteredSpecific = Object.keys(region[i][j])
             } else {
               filteredCountries.push(j)
             }
@@ -96,12 +96,18 @@
       var locations = [];
       retailersEuropeLocations.forEach( function(retailer) {
         if (filteredSpecific.length) {
-
+          if (
+            retailer
+            && retailer.properties
+            && filteredSpecific.indexOf(retailer.properties.city) > -1
+          ) {
+            locations.push(retailer)
+          }
         } else if (filteredCountries.length) {
           if (
             retailer
             && retailer.properties
-            && filteredCountries.indexOf(retailer.properties.country.replace(/\s+/g, '-').toLowerCase()) > -1
+            && filteredCountries.indexOf(retailer.properties.country) > -1
           ) {
             locations.push(retailer)
           }
@@ -189,7 +195,8 @@
         }
         regionsTemplate += '</li>';
       })
-      filterSection.append(regionsTemplate)
+      // filterSection.append(regionsTemplate)
+      filterSection.html(regionsTemplate)
     }
 
     var formatRegion = function(region) {

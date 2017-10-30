@@ -287,8 +287,8 @@
       "phone": "32  3 3604496",
       "email": "antwerpen@lecot.be",
       "website": "http://www.lecot-raedschelders.com",
-      "lng": 5.123219,
-      "lat": 44.32969
+      "lng": 4.432969,
+      "lat": 51.23219
     },
     "geometry": {
       "type": "Point",
@@ -1092,7 +1092,7 @@
       "phone": "+44 (0)1462 450294",
       "email": "cea@dline.com",
       "website": "http://www.dline.co.uk",
-      "lng": 0,
+      "lng": 0.14359,
       "lat": 51.515023
     },
     "geometry": {

@@ -82,7 +82,7 @@
             position: pos,
             map: map,
             icon: markerImage,
-            // label: _locations[i].properties.country
+            // label: _locations[i].properties.name
           });
           locations.push(marker);
         }

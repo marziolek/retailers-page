@@ -40,6 +40,7 @@
           data.markup.length > 0 ? $search.css('display', 'block') : $search.hide();
 
           // add loaded locations to the map
+          console.log(googleMaps)
           googleMaps.setLocations(data.locations);
         });
       }

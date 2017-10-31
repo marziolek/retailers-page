@@ -23,12 +23,16 @@
 
   &__gmaps {
     width: 100%;
-    height: 0;
     background: $color-grey;
-    padding-bottom: 100%;
 
-    @media (min-width: $bp-large) {
-      padding-bottom: 56.5%;
+    &:before {
+      content: '';
+      display: block;
+      padding-top: 100%;
+
+      @media (min-width: $bp-large) {
+        padding-top: 56.5%;
+      }
     }
   }
 

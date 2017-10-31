@@ -93,7 +93,12 @@
 
     function initMap() {
       setMap(options.center);
-      markerImage = new google.maps.MarkerImage('/images/assets/map-marker.png', null, null, null, new google.maps.Size(16,16));
+      // needs wp url for map marker
+      var mapMarker = '/images/assets/map-marker.png';
+      if (window.mapMarker) {
+        mapMarker = window.mapMarker
+      }
+      markerImage = new google.maps.MarkerImage(mapMarker, null, null, null, new google.maps.Size(16,16));
       self.setLocations([options.center]);
 
       if (options.onInit) {
@@ -105,9 +110,10 @@
         window.initMap = initMap;
 
         //load the Google Maps Api
-        var apiScript = $googleMapsApi;
-        var url = apiScript.data('src');
-        $googleMapsApi.attr('src', url);
+        // var apiScript = $googleMapsApi;
+        // var url = apiScript.data('src');
+        // $googleMapsApi.attr('src', url);
+        $('#maps-script').html('<script id="google-maps-api" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmM7kMf_PxxULk6gzjigbtXb7JdzOmx9M&callback=initMap"></script>')
       };
       initialize();
   };

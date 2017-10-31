@@ -175,7 +175,6 @@
           countries = _.groupBy(regions[region], function(retailer) { return retailer.properties.country });
           var countriesKeys = Object.keys(countries);
           countriesKeys = countriesKeys.sort();
-
           regionsTemplate += '<div class="filter__subsection"><div class="filter__info"><h4 class="header-small filter__close"><strong>back</strong></h4><div class="filter__clear link">clear selection</div></div>';
           regionsTemplate += '<ul class="filter__section">';
           regionsTemplate += '<li class="filter__option filter__all filter__option--selected"><div class="label link">all</div></li>';
@@ -184,8 +183,12 @@
               regionsTemplate += '<div class="filter__subsection">';
               regionsTemplate += '<div class="filter__info"><h4 class="header-small filter__close"><strong>back</strong></h4><div class="filter__clear link">clear selection</div></div>';
               regionsTemplate += '<ul class="filter__section">';
-                countries[country].forEach( function(item) {
-                  regionsTemplate += '<li filter-key="' + item.properties.city + '" class="filter__option"><div class="label link">' + item.properties.city + '</div></li>';
+                var cities;
+                cities = _.groupBy(countries[country], function(city) { return city.properties.city });
+                var citiesKeys = Object.keys(cities);
+                citiesKeys = citiesKeys.sort();
+                citiesKeys.forEach( function(item) {
+                  regionsTemplate += '<li filter-key="' + item + '" class="filter__option"><div class="label link">' + item + '</div></li>';
                 })
               regionsTemplate += '</ul></div></li>';
             regionsTemplate += '</li>';
@@ -195,7 +198,6 @@
         }
         regionsTemplate += '</li>';
       })
-      // filterSection.append(regionsTemplate)
       filterSection.html(regionsTemplate)
     }
 

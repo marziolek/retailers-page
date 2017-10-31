@@ -27,20 +27,6 @@
     var width = 0;
     var right = 0;
 
-    /*var onScroll = function () {
-      var translation = 0;
-      // Determine if the top of the window has scroll passed initialPosition of the $elem
-      if ($window.scrollTop() > initialPosition && $(window).outerWidth() >= globalVars.breakPoints.large) {
-        // If so move the $elem to align with the top of the window
-        // the $elem can be moved at a maximum to the top of the target.
-        translation = Math.min($window.scrollTop() - initialPosition, maxTranslation);
-      } else {
-        translation = 0;
-      }
-
-      $elem.css('transform', 'translateY(' + translation + 'px)');
-    };*/
-
     var removeSticky = function () {
       $elem.css('transform', 'none');
       $elem.css('position', 'relative');
@@ -76,8 +62,8 @@
       // recalculate the initialPosition and targetTop.
       // This is done in the resize event handler to
       // have as little computation as possible in the on scroll handler.
-      targetTop = options.target[0].getBoundingClientRect().top;
-      initialPosition = $elem[0].getBoundingClientRect().top;
+      targetTop = $(window).scrollTop() + options.target[0].getBoundingClientRect().top;
+      initialPosition = $(window).scrollTop() + $elem[0].getBoundingClientRect().top;
       maxTranslation = targetTop - initialPosition;
       width = $elem.parent().width() - 1;
       right = $(window).width() - $elem[0].getBoundingClientRect().right + 1;

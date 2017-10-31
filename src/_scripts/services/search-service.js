@@ -14,36 +14,40 @@
 })(this, function() {
   'use strict';
 
-  /*
-    This is a mock products service to simulate loading a list of products from the backend.
-  */
   var SearchService = function() {
 
-    var mockData = {
-      count: 8,
-      result: [
-        '<div class="search__result gl-top gl-top--pull-left gl-bot gl-bot--pull-left"><div class="l-row"><div class="l-col l-col-pad"><div class="text result-count">2 results</div></div><div class="l-col-3 gl-left"><div><a href="/" class="result-item header-small">holscher</a><a href="/" class="result-item header-small">knud</a></div></div></div></div>',
-        '<div class="search__result gl-top gl-top--pull-left gl-bot gl-bot--pull-left"><div class="l-row"><div class="l-col l-col-pad"><div class="text result-count">2 results</div></div><div class="l-col-3 gl-left"><div><a href="/" class="result-item header-small">holscher</a><a href="/" class="result-item header-small">knud</a></div></div></div></div>',
-        '<div class="search__result gl-top gl-top--pull-left gl-bot gl-bot--pull-left"><div class="l-row"><div class="l-col l-col-pad"><div class="text result-count">2 results</div></div><div class="l-col-3 gl-left"><div><a href="/" class="result-item header-small">holscher</a><a href="/" class="result-item header-small">knud</a></div></div></div></div>',
-        '<div class="search__result gl-top gl-top--pull-left gl-bot gl-bot--pull-left"><div class="l-row"><div class="l-col l-col-pad"><div class="text result-count">2 results</div></div><div class="l-col-3 gl-left"><div><a href="/" class="result-item header-small">holscher</a><a href="/" class="result-item header-small">knud</a></div></div></div></div>',
-      ]
-    };
+      var mockData = {};
 
     /*
-      Passes back a list of HTML elements to inject into the pagination list.
-      The HTML elements returned in the list here will each be wrappen in a
-      li by the pagination component.
+    var data = {
+          'action': 'dl_search',
+          'search_query': 'test'
+        };
+
+    $.post(admin_url,data,function(result){
+      var response = result;
+      mockData['count'] = response.total;
+      mockData['result'] =  response.result;
+    });
+
     */
-    this.search = function(query, onResponse) {
-      //console.log('mock search', query);
 
-      setTimeout(function () {
-        if (onResponse) {
-          onResponse(mockData);
-        }
-      }, 400);
+
+      /*
+        Passes back a list of HTML elements to inject into the pagination list.
+        The HTML elements returned in the list here will each be wrappen in a
+        li by the pagination component.
+      */
+      this.search = function(query, onResponse) {
+        //console.log('mock search', query);
+
+        setTimeout(function () {
+          if (onResponse) {
+            onResponse(mockData);
+          }
+        }, 400);
+      };
     };
-  };
 
-  return SearchService;
-});
+    return SearchService;
+  });

@@ -150,10 +150,10 @@
 
       selection = {};
 
+
       $elem.removeClass('filter--filter-set');
       $elem.find('.filter__all').addClass('filter__option--selected');
       setIndicators();
-
       // Invoke callback
       if (settings && settings.onChange) {
         settings.onChange(selection);
@@ -178,11 +178,6 @@
         $elem.removeClass('filter--filter-set');
       }
       setIndicators();
-
-      // Invoke callback
-      if (settings && settings.onChange && $('.retailers-page').length) {
-        settings.onChange(selection);
-      }
       return false;
     };
 

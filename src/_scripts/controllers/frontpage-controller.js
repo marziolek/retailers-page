@@ -19,6 +19,7 @@
   var FrontpageController = function($elem) {
     var $pageLoadSplash = $('.page-load-splash');
     var $barbaWrapper = $('#barba-wrapper');
+    var $frontpageSplash = $('.frontpage__splash');
     var stateService = new StateService();
     var state = stateService.getState();
 
@@ -31,14 +32,22 @@
     };
 
     var animateIn = function () {
-      $barbaWrapper.css('position', 'relative');
+      document.body.scrollTop = 0;
+      $(window).scrollTop(0);
+      $pageLoadSplash.css('z-index', '4');
+      $barbaWrapper.css('width', '100%');
+      //$barbaWrapper.css('position', 'relative');
       window.Tween.to($pageLoadSplash, 0.6, {width: '0%', onComplete:onAnimationInComplete});
     };
 
     var animateOut = function () {
-      $barbaWrapper.css('position', 'fixed');
-      $pageLoadSplash.css('z-index', '2');
-      Tween.to($elem, 1, {width: '0%', onComplete:onAnimationOutComplete});
+      //$barbaWrapper.css('position', 'fixed');
+      //$pageLoadSplash.css('z-index', '2');
+      //Tween.to($elem, 1, {width: '0%', onComplete:onAnimationOutComplete});
+      $pageLoadSplash.css('z-index', '0');
+      $pageLoadSplash.css('width', '100%');
+      //$barbaWrapper.css('position', 'fixed');
+      Tween.to([$frontpageSplash, $barbaWrapper], 1, {width: '0%', onComplete:onAnimationOutComplete});
     };
 
     // If the frontpage is the first page to be visited, display the frontpage load animation

@@ -18,7 +18,7 @@
 
   var Brochure = function($elem) {
     var stateService = new StateService();
-    var $brochure = $elem.find('.brochure');
+    //var $brochure = $elem.find('.brochure');
     var $count = $elem.find('.brochure__count');
 
     var updateCount = function () {
@@ -28,18 +28,17 @@
       } else {
         $count.text('( ' + state.catalogue.length + ' )');
         $count.css('display', 'inline-block');
-
         setTimeout(function () {
-          $brochure.addClass('blink');
+          $elem.addClass('blink');
         }, 1);
         setTimeout(function () {
-          $brochure.removeClass('blink');
-        }, 1000);
+          $elem.removeClass('blink');
+        }, 600);
       }
     };
 
     window.PubSub.subscribe('brochure:do-update', updateCount);
-    updateCount();
+    //updateCount();
   };
 
   return Brochure;

@@ -29,10 +29,20 @@
     var search = function (query) {
       if (options.search) {
         options.search(query, function (data) {
-          $resultsContainerInner.html(data.result);
-          $searchStatus.removeClass('searching');
-          $searchStatus.find('.results-count').text(data.count + ' results found');
-          window.Tween.fromTo($resultsContainerInner, 0.3, {y: minHeight + 'px'}, {y: '0px'});
+
+		var data = {
+        'action': 'dl_search',
+        'search_query': query
+		 };
+
+		$.post(admin_url,data,function(result){
+			var response = result;
+			$resultsContainerInner.html(response.result);
+			$searchStatus.removeClass('searching');
+			$searchStatus.find('.results-count').text(response.total + ' results found');
+			window.Tween.fromTo($resultsContainerInner, 0.3, {y: minHeight + 'px'}, {y: '0px'});
+		});
+
         });
       }
     };

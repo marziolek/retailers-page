@@ -102,14 +102,15 @@
     var removeScrollBlock = function () {
       $('html, body').css('overflow', 'auto');
       $('html, body').css('height', 'auto');
+      console.log('REMOVE body overflow hidden');
     };
 
     var open = function () {
       measure();
       $elem.addClass('global-menu--open');
       $('html, body').css('overflow', 'hidden');
-      //$('html, body').css('overflow', 'relative');
       $('html, body').css('height', '100vh');
+      console.log('SET body overflow hidden');
       isOpen = true;
       $burgerLine.addClass('burger__line__closed');
 
@@ -117,7 +118,7 @@
         $elem.addClass('global-menu--short-delay');
       }, 500);
 
-      $elem.find('a').on('click', removeScrollBlock);
+      $elem.on('click', 'a', removeScrollBlock);
     };
 
     var close = function () {
@@ -126,9 +127,8 @@
       $page.css('transform', 'translateY(0)');
       $nav.height('auto');
       $elem.height('auto');
-      $('html, body').css('overflow', 'auto');
+      removeScrollBlock();
       $('html, body').css('position', 'static');
-      $('html, body').css('height', 'auto');
       $burgerLine.removeClass('burger__line__closed');
       $elem.find('.global-menu__key').removeClass('global-menu__key--selected');
       isOpen = false;
@@ -138,7 +138,7 @@
         $search.css('opacity', '0');
       }, 500);
 
-      $elem.find('a').off('click', removeScrollBlock);
+      $elem.off('click', 'a', removeScrollBlock);
     };
 
     var toggle = function () {

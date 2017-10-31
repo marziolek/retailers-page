@@ -191,7 +191,10 @@
 
       $elem.addClass('page-intro--dismissed'); // This class is not used for any styling. It is used by the global menu to detect wether the page intro is visible or not.
       $globalMenu.removeClass('global-menu--intro');
-      window.Tween.to($globalMenuBar, hardDismiss ? 0 : 0.5, {yPercent: '100%'});
+
+      //window.Tween.to($globalMenuBar, hardDismiss ? 0 : 0.5, {yPercent: '100%'});
+      $globalMenuBar.css('transform', 'translateY(0%)');
+
       window.Tween.to($inner, hardDismiss ? 0 : 0.5, {yPercent: '-100%', clearProps:"yPercent"});
       window.Tween.to($globalMenu, hardDismiss ? 0 : 0.5, {y: '0px', clearProps:"y", onComplete:function () {
         $('body').css('overflow', 'auto');
@@ -218,7 +221,10 @@
       lockEvents = true; // This will disable arrow keys or scroll events till the animation is done.
       isDisplayed = true;
       $('body').css('overflow', 'hidden');
-      window.Tween.to($globalMenuBar, 0.5, {yPercent: '0%'});
+
+      //window.Tween.to($globalMenuBar, 0.5, {yPercent: '0%'});
+      $globalMenuBar.css('transform', 'translateY(-100%)');
+
       window.Tween.fromTo($inner, 0.5, {yPercent: '-100%'}, {yPercent: '0%'});
       window.Tween.to($globalMenu, 0.5, {y: Math.round($inner.outerHeight()) + 'px', onComplete:function () {
         lockEvents = false;

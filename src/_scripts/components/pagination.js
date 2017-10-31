@@ -71,10 +71,14 @@
       $next.find('.pagination__paging-current').text(text);
 
       // Determien if Prev and next are shown
-      index > 0 ? $prev.removeClass('hidden') : $prev.addClass('hidden');
+      //index > 0 ? $prev.removeClass('hidden') : $prev.addClass('hidden');
       index + pageSize > totalCount ? $next.addClass('hidden') : $next.removeClass('hidden');
       updateGridLines();
     };
+
+    var renderPrevBtn = function () {
+      return $('<li class="pagination__prev"><span pagination-prev="pagination-prev" class="header-small"><strong>prev</strong></span><span class="pagination__paging text"><span class="pagination__paging-current">1-11</span><span class="pagination__paging-count">( ' + totalCount + ' )</span></span></li>');
+    }
 
     var onPageLoad = function (data) {
       // Render items
@@ -88,7 +92,12 @@
       //console.log(items);
 
       $items.remove();
-      $elem.append(items);
+      $elem.find('.pagination__prev').remove()
+      $elem.prepend(items);
+      if (index > 0) {
+        $elem.prepend(renderPrevBtn());
+        $prev = $elem.find('.pagination__prev');
+      }
       $items = $elem.find('.pagination__item');
 
       updateRangeIndicators(data.length);
@@ -102,8 +111,8 @@
       // Get the total pagination count
       options.getTotalCount(function (total) {
         totalCount = total;
-        $prev.find('.pagination__paging-count').text(total);
-        $next.find('.pagination__paging-count').text(total);
+        $prev.find('.pagination__paging-count').text('( ' + total + ' )');
+        $next.find('.pagination__paging-count').text('( ' + total + ' )');
         var firstRange = totalCount > pageSize ? pageSize - 1 : pageSize;
         updateRangeIndicators(firstRange);
       });
@@ -135,8 +144,8 @@
       // Get the total pagination count
       options.getTotalCount(function (total) {
         totalCount = total;
-        $prev.find('.pagination__paging-count').text(total);
-        $next.find('.pagination__paging-count').text(total);
+        $prev.find('.pagination__paging-count').text('( ' + total + ' )');
+        $next.find('.pagination__paging-count').text('( ' + total + ' )');
         var firstRange = totalCount > pageSize ? pageSize - 1 : pageSize;
         updateRangeIndicators(firstRange);
       });
@@ -152,7 +161,7 @@
         options.load(index, nextPageSize, onPageLoad);
       });
 
-      $prev.find('[pagination-prev]').click(function () {
+      $elem.on('click', '[pagination-prev]', function () {
         var nextPageSize = pageSize;
         nextPageSize = nextPageSize - 1; // To compensate for the next button
         if (index - nextPageSize > 0) {
